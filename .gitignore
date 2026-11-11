@@ -1,1 +1,8 @@
 __pycache__
+
+# Dataset files exceeding GitHub's 100 MiB limit
+/parsing_extending_ROOT/data/original/mc_normalized_rntuple_native_category.h5
+/parsing_extending_ROOT/data/1M/mc_normalized_rntuple_1M.root
+/parsing_extending_ROOT/data/original/mc_normalized_rntuple_native.h5
+/parsing_extending_ROOT/data/original/mc_normalized_rntuple_native.npz
+/parsing_extending_ROOT/data/original/mc_normalized_rntuple_native_category.npz

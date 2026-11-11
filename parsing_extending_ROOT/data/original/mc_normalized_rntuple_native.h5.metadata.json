@@ -1,0 +1,61 @@
+{
+  "dataset": "mc_normalized_rntuple_native",
+  "format": "HDF5",
+  "num_samples": 757448,
+  "num_features": 18,
+  "num_classes": 2,
+  "target_column": "Label",
+  "feature_columns": [
+    "lep1_E_norm",
+    "lep1_eta_norm",
+    "lep1_phi_norm",
+    "lep1_pt_norm",
+    "lep2_E_norm",
+    "lep2_eta_norm",
+    "lep2_phi_norm",
+    "lep2_pt_norm",
+    "lep3_E_norm",
+    "lep3_eta_norm",
+    "lep3_phi_norm",
+    "lep3_pt_norm",
+    "lep4_E_norm",
+    "lep4_eta_norm",
+    "lep4_phi_norm",
+    "lep4_pt_norm",
+    "m4l_norm",
+    "weight"
+  ],
+  "X_dtype": "float64",
+  "y_dtype": "int32",
+  "source_root_types": {
+    "Label": "std::int32_t",
+    "lep1_E_norm": "double",
+    "lep1_eta_norm": "double",
+    "lep1_phi_norm": "double",
+    "lep1_pt_norm": "double",
+    "lep2_E_norm": "double",
+    "lep2_eta_norm": "double",
+    "lep2_phi_norm": "double",
+    "lep2_pt_norm": "double",
+    "lep3_E_norm": "double",
+    "lep3_eta_norm": "double",
+    "lep3_phi_norm": "double",
+    "lep3_pt_norm": "double",
+    "lep4_E_norm": "double",
+    "lep4_eta_norm": "double",
+    "lep4_phi_norm": "double",
+    "lep4_pt_norm": "double",
+    "m4l_norm": "double",
+    "sample_category": "std::string",
+    "weight": "double"
+  },
+  "skipped_columns": [
+    {
+      "name": "sample_category",
+      "root_type": "std::string"
+    }
+  ],
+  "dtype_policy": "preserve source NumPy numeric dtypes; no explicit casts",
+  "chunk_rows": 7281,
+  "compression": null
+}
