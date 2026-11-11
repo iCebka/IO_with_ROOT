@@ -1,0 +1,1957 @@
+# darshan log version: 3.41
+# compression method: ZLIB
+# exe: /pscratch/sd/s/satt/sprints/myvenv/bin/python3 /pscratch/sd/s/satt/sprints/a_star_campaign/root/root_tr_9.py --data-path /pscratch/sd/s/satt/sprints/data/roots/mc_normalized_rntuple_10M_9.root --tree-name tree --target-col Label --strategy stream --no-shuffle --model M2 --batch-size 64 --epochs 10 --log-every 50000 
+# uid: 114163
+# jobid: 1268171
+# start_time: 1794320234
+# start_time_asci: Tue Nov 10 09:17:14 2026
+# end_time: 1794322347
+# end_time_asci: Tue Nov 10 09:52:27 2026
+# nprocs: 1
+# run time: 2113.0021
+# metadata: lib_ver = 3.5.0
+
+# log file regions
+# -------------------------------------------------------
+# header: 1328 bytes (uncompressed)
+# job data: 758 bytes (compressed)
+# record table: 73722 bytes (compressed)
+# POSIX module: 85778 bytes (compressed), ver=4
+# STDIO module: 1895 bytes (compressed), ver=2
+# DXT_POSIX module: 10893 bytes (compressed), ver=2
+# HEATMAP module: 262 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/var/opt/cray/analytics/analytics_image/base	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-26.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-25.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-24.07	squashfs
+# mount entry:	/etc/opt/cray/analytics/admin-analytics	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-26.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-25.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-24.07	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-26.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-26.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-25.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-25.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-24.07	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-24.07	squashfs
+# mount entry:	/cvmfs/config-osg.opensciencegrid.org	fuse
+# mount entry:	/cvmfs/fifeuser4.opensciencegrid.org	fuse
+# mount entry:	/var/opt/cray/pe/pe_images/nvhpc	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc	squashfs
+# mount entry:	/cvmfs/sbnd.opensciencegrid.org	fuse
+# mount entry:	/cvmfs/gm2.opensciencegrid.org	fuse
+# mount entry:	/cvmfs/cvmfs-config.cern.ch	fuse
+# mount entry:	/cvmfs/cernvm-prod.cern.ch	fuse
+# mount entry:	/sys/firmware/efi/efivars	efivarfs
+# mount entry:	/sys/kernel/debug/tracing	tracefs
+# mount entry:	/cvmfs/alice-ocdb.cern.ch	fuse
+# mount entry:	/proc/sys/fs/binfmt_misc	autofs
+# mount entry:	/opt/cray/analytics/bin	squashfs
+# mount entry:	/opt/cray/chapel/1.30.0	squashfs
+# mount entry:	/cvmfs/belle.cern.ch	fuse
+# mount entry:	/sys/kernel/tracing	tracefs
+# mount entry:	/opt/nvidia/hpc_sdk	overlay
+# mount entry:	/sys/kernel/config	configfs
+# mount entry:	/.rootfs_lower_ro	squashfs
+# mount entry:	/sys/fs/selinux	selinuxfs
+# mount entry:	/sys/fs/cgroup	cgroup2
+# mount entry:	/sys/fs/pstore	pstore
+# mount entry:	/global/common	dvs
+# mount entry:	/dvs_rw/common	dvs
+# mount entry:	/dvs_ro/common	dvs
+# mount entry:	/scratch/cvmfs	ext4
+# mount entry:	/run/cxi/cxi0	fuse
+# mount entry:	/opt/cray/pe	overlay
+# mount entry:	/dev/mqueue	mqueue
+# mount entry:	/sys/fs/bpf	bpf
+# mount entry:	/global/dna	dvs
+# mount entry:	/global/cfs	dvs
+# mount entry:	/dvs_rw/dna	dvs
+# mount entry:	/dvs_rw/cfs	dvs
+# mount entry:	/dvs_ro/dna	dvs
+# mount entry:	/dvs_ro/cfs	dvs
+# mount entry:	/opt/intel	overlay
+# mount entry:	/global/u1	dvs
+# mount entry:	/global/u2	dvs
+# mount entry:	/dvs_rw/u1	dvs
+# mount entry:	/dvs_rw/u2	dvs
+# mount entry:	/dvs_ro/u1	dvs
+# mount entry:	/dvs_ro/u2	dvs
+# mount entry:	/pscratch	lustre
+# mount entry:	/opt/AMD	overlay
+# mount entry:	/dvs_rw	overlay
+# mount entry:	/dev	devtmpfs
+# mount entry:	/lus	lustre
+# mount entry:	/	overlay
+
+# ***************************************************
+# DXT_POSIX module data
+# ***************************************************
+
+# DXT, file_id: 1183378753704768064, file_name: /pscratch/sd/s/satt/sprints/myvenv/pyvenv.cfg
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6339      0.0296      0.0305   140677929441088
+ X_POSIX       0   read        1            6339               0      0.0306      0.0306   140677929441088
+ X_POSIX       0   read        2               0             387      0.0389      0.0389   140677929441088
+ X_POSIX       0   read        3             387               0      0.0389      0.0389   140677929441088
+
+# DXT, file_id: 6509654755798325290, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/distutils-precedence.pth
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             151      0.0410      0.0413   140677929441088
+ X_POSIX       0   read        1             151               0      0.0413      0.0413   140677929441088
+ X_POSIX       0   read        2               0             151      0.0483      0.0483   140677929441088
+ X_POSIX       0   read        3             151               0      0.0483      0.0483   140677929441088
+
+# DXT, file_id: 3705535263059170438, file_name: /opt/nersc/pymon/sitecustomize/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /, fs_type: overlay
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             435      0.0487      0.0496   140677929441088
+ X_POSIX       0   read        1             435               0      0.0496      0.0496   140677929441088
+
+# DXT, file_id: 136586645576768235, file_name: /opt/nersc/pymon/nersc_pymon/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /, fs_type: overlay
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            9044      0.0509      0.0510   140677929441088
+ X_POSIX       0   read        1            9044               0      0.0510      0.0510   140677929441088
+
+# DXT, file_id: 6070264603415064845, file_name: /opt/nersc/pymon/nersc_pymon/log.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /, fs_type: overlay
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             745      0.1454      0.1454   140677929441088
+ X_POSIX       0   read        1             745               0      0.1454      0.1454   140677929441088
+
+# DXT, file_id: 1122345310976027381, file_name: /opt/nersc/pymon/nersc_pymon/_vendor/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /, fs_type: overlay
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0               0      0.1611      0.1611   140677929441088
+
+# DXT, file_id: 2919575139415093250, file_name: /opt/nersc/pymon/nersc_pymon/_vendor/nerscjson.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /, fs_type: overlay
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            4273      0.1613      0.1614   140677929441088
+ X_POSIX       0   read        1            4273               0      0.1614      0.1614   140677929441088
+
+# DXT, file_id: 5375169344426660457, file_name: /pscratch/sd/s/satt/sprints/a_star_campaign/root/root_tr_9.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 10
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           26953      0.1972      0.1977   140677929441088
+ X_POSIX       0   read        1           26953               0      0.1977      0.1977   140677929441088
+ X_POSIX       0   read        2               0          105376      0.2030      0.2043   140677929441088
+ X_POSIX       0   read        3          105376               0      0.2043      0.2043   140677929441088
+ X_POSIX       0   read        4               0           22632      0.2057      0.2065   140677929441088
+ X_POSIX       0   read        5           22632               0      0.2065      0.2065   140677929441088
+ X_POSIX       0   read        6               0           27480      0.2091      0.2096   140677929441088
+ X_POSIX       0   read        7           27480               0      0.2096      0.2096   140677929441088
+ X_POSIX       0   read        8               0           26953      4.7144      4.7144   140677929441088
+ X_POSIX       0   read        9           26953               0      4.7145      4.7145   140677929441088
+
+# DXT, file_id: 15920181672442173319, file_name: <STDOUT>
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 97, read_count: 0
+# DXT, mnt_pt: UNKNOWN, fs_type: UNKNOWN
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0  write        0               0             107      0.2076      0.2076   140677929441088
+ X_POSIX       0  write        1             107             105     13.8761     13.8761   140677929441088
+ X_POSIX       0  write        2             212             104     13.8763     13.8763   140677929441088
+ X_POSIX       0  write        3             316             105     13.8856     13.8856   140677929441088
+ X_POSIX       0  write        4             421             198     13.8856     13.8856   140677929441088
+ X_POSIX       0  write        5             619             127     13.8856     13.8856   140677929441088
+ X_POSIX       0  write        6             746             125     13.8857     13.8857   140677929441088
+ X_POSIX       0  write        7             871             109     13.8857     13.8857   140677929441088
+ X_POSIX       0  write        8             980             107     15.0482     15.0483   140677929441088
+ X_POSIX       0  write        9            1087             117     15.0483     15.0483   140677929441088
+ X_POSIX       0  write       10            1204             133     15.1178     15.1178   140677929441088
+ X_POSIX       0  write       11            1337             124     15.1178     15.1178   140677929441088
+ X_POSIX       0  write       12            1461             122     18.6508     18.6508   140677929441088
+ X_POSIX       0  write       13            1583             132     18.6509     18.6509   140677929441088
+ X_POSIX       0  write       14            1715             130     18.6509     18.6509   140677929441088
+ X_POSIX       0  write       15            1845             135     18.6510     18.6510   140677929441088
+ X_POSIX       0  write       16            1980             119     18.6510     18.6510   140677929441088
+ X_POSIX       0  write       17            2099             124     23.7657     23.7657   140677929441088
+ X_POSIX       0  write       18            2223             125     24.1122     24.1123   140677929441088
+ X_POSIX       0  write       19            2348             134     94.9015     94.9015   140677929441088
+ X_POSIX       0  write       20            2482             193    163.2059    163.2059   140677929441088
+ X_POSIX       0  write       21            2675             194    228.8313    228.8313   140677929441088
+ X_POSIX       0  write       22            2869             189    236.8186    236.8186   140677929441088
+ X_POSIX       0  write       23            3058             189    236.8186    236.8186   140677929441088
+ X_POSIX       0  write       24            3247             119    236.8186    236.8186   140677929441088
+ X_POSIX       0  write       25            3366             124    237.8649    237.8649   140677929441088
+ X_POSIX       0  write       26            3490             125    237.8678    237.8678   140677929441088
+ X_POSIX       0  write       27            3615             134    303.2521    303.2521   140677929441088
+ X_POSIX       0  write       28            3749             193    369.4401    369.4401   140677929441088
+ X_POSIX       0  write       29            3942             194    435.5955    435.5955   140677929441088
+ X_POSIX       0  write       30            4136             189    443.5559    443.5559   140677929441088
+ X_POSIX       0  write       31            4325             189    443.5560    443.5560   140677929441088
+ X_POSIX       0  write       32            4514             119    443.5560    443.5560   140677929441088
+ X_POSIX       0  write       33            4633             124    444.6075    444.6075   140677929441088
+ X_POSIX       0  write       34            4757             125    444.6097    444.6098   140677929441088
+ X_POSIX       0  write       35            4882             134    509.8120    509.8120   140677929441088
+ X_POSIX       0  write       36            5016             193    576.0337    576.0338   140677929441088
+ X_POSIX       0  write       37            5209             194    642.1657    642.1658   140677929441088
+ X_POSIX       0  write       38            5403             189    650.1804    650.1804   140677929441088
+ X_POSIX       0  write       39            5592             189    650.1804    650.1804   140677929441088
+ X_POSIX       0  write       40            5781             119    650.1804    650.1804   140677929441088
+ X_POSIX       0  write       41            5900             124    651.2589    651.2589   140677929441088
+ X_POSIX       0  write       42            6024             125    651.2612    651.2612   140677929441088
+ X_POSIX       0  write       43            6149             134    716.8837    716.8837   140677929441088
+ X_POSIX       0  write       44            6283             193    783.1180    783.1180   140677929441088
+ X_POSIX       0  write       45            6476             194    850.5203    850.5203   140677929441088
+ X_POSIX       0  write       46            6670             189    858.6156    858.6156   140677929441088
+ X_POSIX       0  write       47            6859             189    858.6156    858.6156   140677929441088
+ X_POSIX       0  write       48            7048             119    858.6157    858.6157   140677929441088
+ X_POSIX       0  write       49            7167             124    859.6639    859.6639   140677929441088
+ X_POSIX       0  write       50            7291             125    859.6663    859.6663   140677929441088
+ X_POSIX       0  write       51            7416             134    925.4840    925.4840   140677929441088
+ X_POSIX       0  write       52            7550             193    991.8666    991.8666   140677929441088
+ X_POSIX       0  write       53            7743             194   1058.0362   1058.0362   140677929441088
+ X_POSIX       0  write       54            7937             189   1066.1078   1066.1078   140677929441088
+ X_POSIX       0  write       55            8126             189   1066.1078   1066.1078   140677929441088
+ X_POSIX       0  write       56            8315             119   1066.1078   1066.1078   140677929441088
+ X_POSIX       0  write       57            8434             124   1067.1634   1067.1634   140677929441088
+ X_POSIX       0  write       58            8558             125   1067.1660   1067.1660   140677929441088
+ X_POSIX       0  write       59            8683             134   1132.6894   1132.6894   140677929441088
+ X_POSIX       0  write       60            8817             193   1198.8507   1198.8507   140677929441088
+ X_POSIX       0  write       61            9010             194   1265.0136   1265.0136   140677929441088
+ X_POSIX       0  write       62            9204             189   1273.0980   1273.0980   140677929441088
+ X_POSIX       0  write       63            9393             189   1273.0980   1273.0980   140677929441088
+ X_POSIX       0  write       64            9582             119   1273.0981   1273.0981   140677929441088
+ X_POSIX       0  write       65            9701             124   1274.1845   1274.1845   140677929441088
+ X_POSIX       0  write       66            9825             125   1274.1869   1274.1869   140677929441088
+ X_POSIX       0  write       67            9950             134   1340.0340   1340.0340   140677929441088
+ X_POSIX       0  write       68           10084             193   1407.2178   1407.2178   140677929441088
+ X_POSIX       0  write       69           10277             194   1474.4657   1474.4657   140677929441088
+ X_POSIX       0  write       70           10471             189   1482.6694   1482.6694   140677929441088
+ X_POSIX       0  write       71           10660             189   1482.6694   1482.6694   140677929441088
+ X_POSIX       0  write       72           10849             119   1482.6695   1482.6695   140677929441088
+ X_POSIX       0  write       73           10968             124   1483.7313   1483.7313   140677929441088
+ X_POSIX       0  write       74           11092             125   1483.7338   1483.7338   140677929441088
+ X_POSIX       0  write       75           11217             134   1550.7227   1550.7227   140677929441088
+ X_POSIX       0  write       76           11351             193   1618.3155   1618.3155   140677929441088
+ X_POSIX       0  write       77           11544             194   1685.3586   1685.3586   140677929441088
+ X_POSIX       0  write       78           11738             189   1693.5060   1693.5060   140677929441088
+ X_POSIX       0  write       79           11927             189   1693.5060   1693.5060   140677929441088
+ X_POSIX       0  write       80           12116             119   1693.5060   1693.5060   140677929441088
+ X_POSIX       0  write       81           12235             124   1694.5745   1694.5745   140677929441088
+ X_POSIX       0  write       82           12359             125   1694.5768   1694.5768   140677929441088
+ X_POSIX       0  write       83           12484             134   1761.1528   1761.1528   140677929441088
+ X_POSIX       0  write       84           12618             193   1827.9218   1827.9218   140677929441088
+ X_POSIX       0  write       85           12811             194   1894.5977   1894.5977   140677929441088
+ X_POSIX       0  write       86           13005             189   1902.7161   1902.7161   140677929441088
+ X_POSIX       0  write       87           13194             190   1902.7162   1902.7162   140677929441088
+ X_POSIX       0  write       88           13384             120   1902.7162   1902.7162   140677929441088
+ X_POSIX       0  write       89           13504             125   1903.7631   1903.7631   140677929441088
+ X_POSIX       0  write       90           13629             126   1903.7654   1903.7654   140677929441088
+ X_POSIX       0  write       91           13755             135   1969.8866   1969.8867   140677929441088
+ X_POSIX       0  write       92           13890             195   2036.8499   2036.8499   140677929441088
+ X_POSIX       0  write       93           14085             196   2103.5878   2103.5878   140677929441088
+ X_POSIX       0  write       94           14281             191   2111.6929   2111.6929   140677929441088
+ X_POSIX       0  write       95           14472             158   2111.6937   2111.6937   140677929441088
+ X_POSIX       0  write       96           14630             102   2111.6937   2111.6937   140677929441088
+
+# DXT, file_id: 7933150105570456712, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/contextvars.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             129      0.2916      0.2919   140677929441088
+ X_POSIX       0   read        1             129               0      0.2919      0.2919   140677929441088
+
+# DXT, file_id: 11386793128086101747, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/timeit.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           13463      0.5435      0.5446   140677929441088
+ X_POSIX       0   read        1           13463               0      0.5446      0.5446   140677929441088
+
+# DXT, file_id: 13661089374928665475, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/difflib.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           83468      4.4656      4.4670   140677929441088
+ X_POSIX       0   read        1           83468               0      4.4670      4.4670   140677929441088
+
+# DXT, file_id: 17644575796381766977, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/ctypes/util.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           15195      4.6637      4.6646   140677929441088
+ X_POSIX       0   read        1           15195               0      4.6646      4.6646   140677929441088
+
+# DXT, file_id: 10433303421229763814, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/cuda/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           71905      4.7121      4.7125   140677929441088
+ X_POSIX       0   read        1           71905               0      4.7128      4.7128   140677929441088
+
+# DXT, file_id: 11109086090079606879, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0          111841      4.7132      4.7138   140677929441088
+ X_POSIX       0   read        1          111841               0      4.7141      4.7141   140677929441088
+
+# DXT, file_id: 3249724785023591505, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            3223      4.8955      4.8965   140677929441088
+ X_POSIX       0   read        1            3223               0      4.8965      4.8965   140677929441088
+
+# DXT, file_id: 9404743520230031031, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/result.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            9130      4.9001      4.9009   140677929441088
+ X_POSIX       0   read        1            9130               0      4.9009      4.9009   140677929441088
+
+# DXT, file_id: 1607327717569348283, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/util.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5215      4.9048      4.9054   140677929441088
+ X_POSIX       0   read        1            5215               0      4.9055      4.9055   140677929441088
+
+# DXT, file_id: 530067973992542648, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/case.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           58363      4.9089      4.9098   140677929441088
+ X_POSIX       0   read        1           58363               0      4.9098      4.9098   140677929441088
+
+# DXT, file_id: 12112428480870229126, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/pprint.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           24158      4.9188      4.9195   140677929441088
+ X_POSIX       0   read        1           24158               0      4.9196      4.9196   140677929441088
+
+# DXT, file_id: 7482089801920945727, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/suite.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           13512      4.9258      4.9265   140677929441088
+ X_POSIX       0   read        1           13512               0      4.9265      4.9265   140677929441088
+
+# DXT, file_id: 15295257172988142082, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/loader.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           19680      4.9312      4.9318   140677929441088
+ X_POSIX       0   read        1           19680               0      4.9318      4.9318   140677929441088
+
+# DXT, file_id: 6753890646789080933, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/main.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           11636      4.9365      4.9376   140677929441088
+ X_POSIX       0   read        1           11636               0      4.9376      4.9376   140677929441088
+
+# DXT, file_id: 6467349350609072441, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/runner.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           10368      4.9416      4.9423   140677929441088
+ X_POSIX       0   read        1           10368               0      4.9423      4.9423   140677929441088
+
+# DXT, file_id: 15469986175643375840, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/signals.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            2403      4.9462      4.9468   140677929441088
+ X_POSIX       0   read        1            2403               0      4.9468      4.9468   140677929441088
+
+# DXT, file_id: 15114276664727750913, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/distributed/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             993      4.9493      4.9496   140677929441088
+ X_POSIX       0   read        1             993               0      4.9497      4.9497   140677929441088
+
+# DXT, file_id: 12475369740291637237, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/pickletools.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           94052      5.2488      5.2508   140677929441088
+ X_POSIX       0   read        1           94052               0      5.2508      5.2508   140677929441088
+
+# DXT, file_id: 6411584591748138005, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/nn/functional.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0          277195      5.2866      5.2874   140677929441088
+ X_POSIX       0   read        1          277195               0      5.2880      5.2880   140677929441088
+
+# DXT, file_id: 10567636854435819105, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/nn/modules/rnn.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           76132      5.3484      5.3488   140677929441088
+ X_POSIX       0   read        1           76132               0      5.3490      5.3490   140677929441088
+
+# DXT, file_id: 10049284058523159211, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/functional.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           89830      5.4234      5.4239   140677929441088
+ X_POSIX       0   read        1           89830               0      5.4241      5.4241   140677929441088
+
+# DXT, file_id: 4513027008927705767, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/multiprocessing/resource_sharer.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5145      5.6501      5.6514   140677929441088
+ X_POSIX       0   read        1            5145               0      5.6514      5.6514   140677929441088
+
+# DXT, file_id: 15426126369446233233, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/concurrent/futures/thread.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8962      5.6651      5.6661   140677929441088
+ X_POSIX       0   read        1            8962               0      5.6661      5.6661   140677929441088
+
+# DXT, file_id: 6923120147425152518, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/fx/experimental/_config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6454      5.7000      5.7004   140677929441088
+ X_POSIX       0   read        1            6454               0      5.7004      5.7004   140677929441088
+
+# DXT, file_id: 4058441079871665256, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/unittest/mock.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0          111474      5.7900      5.7911   140677929441088
+ X_POSIX       0   read        1          111474               0      5.7912      5.7912   140677929441088
+
+# DXT, file_id: 11404722276491896558, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1220      5.8169      5.8174   140677929441088
+ X_POSIX       0   read        1            1220               0      5.8174      5.8174   140677929441088
+
+# DXT, file_id: 8927414331087558403, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/base_events.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           81336      5.8233      5.8243   140677929441088
+ X_POSIX       0   read        1           81336               0      5.8243      5.8243   140677929441088
+
+# DXT, file_id: 15071639447389127443, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/constants.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1413      5.8368      5.8373   140677929441088
+ X_POSIX       0   read        1            1413               0      5.8373      5.8373   140677929441088
+
+# DXT, file_id: 9708620881633812297, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/coroutines.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            3342      5.8414      5.8420   140677929441088
+ X_POSIX       0   read        1            3342               0      5.8420      5.8420   140677929441088
+
+# DXT, file_id: 17084802393731840111, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/events.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           29810      5.8462      5.8471   140677929441088
+ X_POSIX       0   read        1           29810               0      5.8471      5.8471   140677929441088
+
+# DXT, file_id: 13727017103714536291, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/format_helpers.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            2727      5.8542      5.8548   140677929441088
+ X_POSIX       0   read        1            2727               0      5.8548      5.8548   140677929441088
+
+# DXT, file_id: 9202206735192466346, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/base_futures.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1974      5.8631      5.8636   140677929441088
+ X_POSIX       0   read        1            1974               0      5.8636      5.8636   140677929441088
+
+# DXT, file_id: 6257429178926979907, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/exceptions.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1752      5.8677      5.8687   140677929441088
+ X_POSIX       0   read        1            1752               0      5.8687      5.8687   140677929441088
+
+# DXT, file_id: 16658986563555581837, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/base_tasks.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            2672      5.8734      5.8742   140677929441088
+ X_POSIX       0   read        1            2672               0      5.8742      5.8742   140677929441088
+
+# DXT, file_id: 16695759067836086306, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/futures.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           14189      5.8779      5.8787   140677929441088
+ X_POSIX       0   read        1           14189               0      5.8787      5.8787   140677929441088
+
+# DXT, file_id: 6910149263640924913, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/protocols.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6957      5.8847      5.8854   140677929441088
+ X_POSIX       0   read        1            6957               0      5.8854      5.8854   140677929441088
+
+# DXT, file_id: 4227317601732398815, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/sslproto.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           31869      5.8903      5.8911   140677929441088
+ X_POSIX       0   read        1           31869               0      5.8911      5.8911   140677929441088
+
+# DXT, file_id: 16912028311412176456, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/transports.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           10808      5.9014      5.9022   140677929441088
+ X_POSIX       0   read        1           10808               0      5.9022      5.9022   140677929441088
+
+# DXT, file_id: 2345736708242688406, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/log.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             124      5.9072      5.9075   140677929441088
+ X_POSIX       0   read        1             124               0      5.9075      5.9075   140677929441088
+
+# DXT, file_id: 12105163918977246080, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/staggered.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            7077      5.9122      5.9129   140677929441088
+ X_POSIX       0   read        1            7077               0      5.9129      5.9129   140677929441088
+
+# DXT, file_id: 8052387096475085489, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/locks.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           20584      5.9180      5.9189   140677929441088
+ X_POSIX       0   read        1           20584               0      5.9189      5.9189   140677929441088
+
+# DXT, file_id: 12131176360417773637, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/mixins.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             481      5.9254      5.9260   140677929441088
+ X_POSIX       0   read        1             481               0      5.9260      5.9260   140677929441088
+
+# DXT, file_id: 9031628370264309034, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/tasks.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           39726      5.9337      5.9345   140677929441088
+ X_POSIX       0   read        1           39726               0      5.9345      5.9345   140677929441088
+
+# DXT, file_id: 14750224176421111120, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/queues.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           10155      5.9417      5.9426   140677929441088
+ X_POSIX       0   read        1           10155               0      5.9426      5.9426   140677929441088
+
+# DXT, file_id: 5644754109737283283, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/timeouts.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6066      5.9482      5.9488   140677929441088
+ X_POSIX       0   read        1            6066               0      5.9488      5.9488   140677929441088
+
+# DXT, file_id: 12776493475995959188, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/trsock.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            2475      5.9529      5.9536   140677929441088
+ X_POSIX       0   read        1            2475               0      5.9536      5.9536   140677929441088
+
+# DXT, file_id: 7819921057547509165, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/runners.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            7234      5.9579      5.9586   140677929441088
+ X_POSIX       0   read        1            7234               0      5.9586      5.9586   140677929441088
+
+# DXT, file_id: 4312806338795922336, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/streams.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           28486      5.9641      5.9649   140677929441088
+ X_POSIX       0   read        1           28486               0      5.9649      5.9649   140677929441088
+
+# DXT, file_id: 6266494066625973956, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/subprocess.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            7737      5.9718      5.9728   140677929441088
+ X_POSIX       0   read        1            7737               0      5.9728      5.9728   140677929441088
+
+# DXT, file_id: 10827340385319651930, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/taskgroups.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           10049      5.9779      5.9786   140677929441088
+ X_POSIX       0   read        1           10049               0      5.9786      5.9786   140677929441088
+
+# DXT, file_id: 10285337890164003933, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/threads.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             794      5.9837      5.9843   140677929441088
+ X_POSIX       0   read        1             794               0      5.9843      5.9843   140677929441088
+
+# DXT, file_id: 6598405606295380156, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/unix_events.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           55153      5.9886      5.9894   140677929441088
+ X_POSIX       0   read        1           55153               0      5.9895      5.9895   140677929441088
+
+# DXT, file_id: 17431977772477992007, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/base_subprocess.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            9700      5.9997      6.0032   140677929441088
+ X_POSIX       0   read        1            9700               0      6.0032      6.0032   140677929441088
+
+# DXT, file_id: 4090806062501350888, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/asyncio/selector_events.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           48551      6.0095      6.0104   140677929441088
+ X_POSIX       0   read        1           48551               0      6.0104      6.0104   140677929441088
+
+# DXT, file_id: 12980733254637222792, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/utils/_debug_mode/_mode.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           40727      6.6799      6.6805   140677929441088
+ X_POSIX       0   read        1           40727               0      6.6807      6.6807   140677929441088
+
+# DXT, file_id: 17326519499286400031, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_export/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1404      6.7009      6.7011   140677929441088
+ X_POSIX       0   read        1            1404               0      6.7012      6.7012   140677929441088
+
+# DXT, file_id: 33216325813141901, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_library/custom_ops.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           46024      6.7488      6.7493   140677929441088
+ X_POSIX       0   read        1           46024               0      6.7494      6.7494   140677929441088
+
+# DXT, file_id: 15515263296805018227, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/compiler/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           13169      7.0261      7.0265   140677929441088
+ X_POSIX       0   read        1           13169               0      7.0266      7.0266   140677929441088
+
+# DXT, file_id: 6972988132079431022, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/networkx-3.6.1.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              94      7.0342      7.0346   140677929441088
+ X_POSIX       0   read        1              94               0      7.0346      7.0346   140677929441088
+ X_POSIX       0   read        2               0              94     17.6082     17.6082   140677929441088
+ X_POSIX       0   read        3              94               0     17.6082     17.6082   140677929441088
+
+# DXT, file_id: 7691057775802859064, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/cffi-2.1.1.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             132      7.0354      7.0357   140677929441088
+ X_POSIX       0   read        1             132               0      7.0357      7.0357   140677929441088
+ X_POSIX       0   read        2               0             132     17.6087     17.6087   140677929441088
+ X_POSIX       0   read        3             132               0     17.6087     17.6087   140677929441088
+
+# DXT, file_id: 9957176305155348135, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/mako-1.4.1.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             495      7.0381      7.0383   140677929441088
+ X_POSIX       0   read        1             495               0      7.0383      7.0383   140677929441088
+ X_POSIX       0   read        2               0             495     17.6097     17.6097   140677929441088
+ X_POSIX       0   read        3             495               0     17.6097     17.6097   140677929441088
+
+# DXT, file_id: 9165873327478271000, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/pygments-2.21.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              53      7.0427      7.0430   140677929441088
+ X_POSIX       0   read        1              53               0      7.0430      7.0430   140677929441088
+ X_POSIX       0   read        2               0              53     17.6108     17.6108   140677929441088
+ X_POSIX       0   read        3              53               0     17.6108     17.6108   140677929441088
+
+# DXT, file_id: 6770278284424751889, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/markdown_it_py-4.2.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              58      7.0438      7.0441   140677929441088
+ X_POSIX       0   read        1              58               0      7.0441      7.0441   140677929441088
+ X_POSIX       0   read        2               0              58     17.6113     17.6113   140677929441088
+ X_POSIX       0   read        3              58               0     17.6113     17.6113   140677929441088
+
+# DXT, file_id: 1641252035299715673, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/root-0.1a12.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              44      7.0449      7.0452   140677929441088
+ X_POSIX       0   read        1              44               0      7.0452      7.0452   140677929441088
+ X_POSIX       0   read        2               0              44     17.6117     17.6117   140677929441088
+ X_POSIX       0   read        3              44               0     17.6118     17.6118   140677929441088
+
+# DXT, file_id: 10135323736634333614, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/sympy-1.14.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              39      7.0478      7.0481   140677929441088
+ X_POSIX       0   read        1              39               0      7.0481      7.0481   140677929441088
+ X_POSIX       0   read        2               0              39     17.6125     17.6125   140677929441088
+ X_POSIX       0   read        3              39               0     17.6125     17.6125   140677929441088
+
+# DXT, file_id: 12147037051663826520, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/jinja2-3.1.6.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              58      7.0530      7.0532   140677929441088
+ X_POSIX       0   read        1              58               0      7.0533      7.0533   140677929441088
+ X_POSIX       0   read        2               0              58     17.6137     17.6137   140677929441088
+ X_POSIX       0   read        3              58               0     17.6137     17.6137   140677929441088
+
+# DXT, file_id: 15188683449565577763, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton-3.7.1.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             176      7.0540      7.0544   140677929441088
+ X_POSIX       0   read        1             176               0      7.0544      7.0544   140677929441088
+ X_POSIX       0   read        2               0             176     17.6141     17.6141   140677929441088
+ X_POSIX       0   read        3             176               0     17.6141     17.6141   140677929441088
+
+# DXT, file_id: 873890918937220782, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/setuptools-84.0.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            2449      7.0556      7.0560   140677929441088
+ X_POSIX       0   read        1            2449               0      7.0560      7.0560   140677929441088
+ X_POSIX       0   read        2               0            2449     17.6146     17.6146   140677929441088
+ X_POSIX       0   read        3            2449               0     17.6146     17.6147   140677929441088
+
+# DXT, file_id: 10046059834210995669, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/fonttools-4.63.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             147      7.0588      7.0591   140677929441088
+ X_POSIX       0   read        1             147               0      7.0591      7.0591   140677929441088
+ X_POSIX       0   read        2               0             147     17.6156     17.6156   140677929441088
+ X_POSIX       0   read        3             147               0     17.6156     17.6156   140677929441088
+
+# DXT, file_id: 5734845711123806599, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch-2.13.0.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             211      7.0599      7.0602   140677929441088
+ X_POSIX       0   read        1             211               0      7.0602      7.0602   140677929441088
+ X_POSIX       0   read        2               0             211     17.6160     17.6160   140677929441088
+ X_POSIX       0   read        3             211               0     17.6160     17.6160   140677929441088
+
+# DXT, file_id: 4123131904394712241, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/pip-26.2.1.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              84      7.0613      7.0616   140677929441088
+ X_POSIX       0   read        1              84               0      7.0616      7.0616   140677929441088
+ X_POSIX       0   read        2               0              84     17.6166     17.6166   140677929441088
+ X_POSIX       0   read        3              84               0     17.6166     17.6166   140677929441088
+
+# DXT, file_id: 423502659202145069, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/numpy-2.5.2.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             220      7.0627      7.0630   140677929441088
+ X_POSIX       0   read        1             220               0      7.0630      7.0630   140677929441088
+ X_POSIX       0   read        2               0             220     17.6171     17.6171   140677929441088
+ X_POSIX       0   read        3             220               0     17.6171     17.6171   140677929441088
+
+# DXT, file_id: 2824537053360128933, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/pandas-3.0.5.dist-info/entry_points.txt
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 4
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0              69      7.0638      7.0641   140677929441088
+ X_POSIX       0   read        1              69               0      7.0641      7.0641   140677929441088
+ X_POSIX       0   read        2               0              69     17.6176     17.6176   140677929441088
+ X_POSIX       0   read        3              69               0     17.6176     17.6176   140677929441088
+
+# DXT, file_id: 2494087120498512496, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton-3.7.1.dist-info/METADATA
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1663      7.0911      7.0914   140677929441088
+ X_POSIX       0   read        1            1663               0      7.0914      7.0914   140677929441088
+
+# DXT, file_id: 9078863399376864499, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_native/registry.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           38762      7.1214      7.1222   140677929441088
+ X_POSIX       0   read        1           38762               0      7.1224      7.1224   140677929441088
+
+# DXT, file_id: 18226578606296951423, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8199      7.1315      7.1318   140677929441088
+ X_POSIX       0   read        1            8199               0      7.1318      7.1319   140677929441088
+
+# DXT, file_id: 7238257241479193519, file_name: <STDERR>
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 1, read_count: 0
+# DXT, mnt_pt: UNKNOWN, fs_type: UNKNOWN
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0  write        0               0             434      7.1320      7.1320   140677929441088
+
+# DXT, file_id: 14963006281045345960, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/cling/lib/clang/20/include/module.modulemap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6622      8.1090      8.1094   140677929441088
+
+# DXT, file_id: 5386295880935178777, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/cling/module.modulemap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             826      8.1298      8.1301   140677929441088
+
+# DXT, file_id: 15415308276399860286, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/cling/libc.modulemap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1012      8.1333      8.1336   140677929441088
+
+# DXT, file_id: 2694587160409403511, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/cling/std.modulemap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            9921      8.1369      8.1372   140677929441088
+
+# DXT, file_id: 3089776679929368008, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/cling/cuda.modulemap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             309      8.1418      8.1421   140677929441088
+
+# DXT, file_id: 7398832310937842888, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libCore.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191      9.5723      9.5726   140677929441088
+ X_POSIX       0   read        1               0             206     12.9912     12.9912   140677929441088
+ X_POSIX       0   read        2             206               0     12.9919     12.9919   140677929441088
+
+# DXT, file_id: 9622701871250122413, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libThread.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191      9.5732      9.5732   140677929441088
+ X_POSIX       0   read        1               0           17169     12.9947     12.9952   140677929441088
+ X_POSIX       0   read        2           17169               0     12.9952     12.9952   140677929441088
+
+# DXT, file_id: 4376679278422478393, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libRIO.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191      9.5734      9.5737   140677929441088
+ X_POSIX       0   read        1               0            7575     13.0450     13.0454   140677929441088
+ X_POSIX       0   read        2            7575               0     13.0454     13.0454   140677929441088
+
+# DXT, file_id: 36294633630482051, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libmultisetDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             233      9.5981      9.5985   140677929441088
+ X_POSIX       0   read        1             233               0      9.5985      9.5986   140677929441088
+ X_POSIX       0   read        2             233               0      9.6022      9.6022   140677929441088
+
+# DXT, file_id: 8756749097616950501, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libGenVector32.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5013      9.5990      9.5994   140677929441088
+ X_POSIX       0   read        1            5013               0      9.5995      9.5995   140677929441088
+
+# DXT, file_id: 9016613610314562314, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libmap2Dict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             367      9.6000      9.6003   140677929441088
+ X_POSIX       0   read        1             367               0      9.6003      9.6004   140677929441088
+
+# DXT, file_id: 516793378869409615, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libforward_listDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             265      9.6009      9.6013   140677929441088
+ X_POSIX       0   read        1             265               0      9.6013      9.6013   140677929441088
+
+# DXT, file_id: 8899201008254783964, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libunordered_multimapDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 1
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             808      9.6018      9.6022   140677929441088
+
+# DXT, file_id: 14622503820011606905, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libunordered_setDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             273      9.6027      9.6031   140677929441088
+ X_POSIX       0   read        1             273               0      9.6031      9.6031   140677929441088
+
+# DXT, file_id: 14900231744324209394, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libmapDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             354      9.6036      9.6040   140677929441088
+ X_POSIX       0   read        1             354               0      9.6040      9.6040   140677929441088
+
+# DXT, file_id: 17132596450279253360, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libunordered_multisetDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             313      9.6045      9.6048   140677929441088
+ X_POSIX       0   read        1             313               0      9.6049      9.6049   140677929441088
+
+# DXT, file_id: 7811604327692146933, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libdequeDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             289      9.6054      9.6058   140677929441088
+ X_POSIX       0   read        1             289               0      9.6058      9.6058   140677929441088
+
+# DXT, file_id: 11234575563353150276, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libvalarrayDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             166      9.6063      9.6066   140677929441088
+ X_POSIX       0   read        1             166               0      9.6066      9.6066   140677929441088
+
+# DXT, file_id: 13689754133430132225, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libsetDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             193      9.6072      9.6075   140677929441088
+ X_POSIX       0   read        1             193               0      9.6075      9.6076   140677929441088
+
+# DXT, file_id: 7433680145809054904, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libcomplexDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             399      9.6081      9.6084   140677929441088
+ X_POSIX       0   read        1             399               0      9.6085      9.6085   140677929441088
+
+# DXT, file_id: 8295923163664290197, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libmultimap2Dict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             357      9.6091      9.6095   140677929441088
+ X_POSIX       0   read        1             357               0      9.6095      9.6095   140677929441088
+
+# DXT, file_id: 17082595165809601331, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libSmatrix32.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1807      9.6100      9.6103   140677929441088
+ X_POSIX       0   read        1            1807               0      9.6104      9.6104   140677929441088
+
+# DXT, file_id: 16324384210324162601, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libvectorDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             427      9.6111      9.6114   140677929441088
+ X_POSIX       0   read        1             427               0      9.6115      9.6115   140677929441088
+
+# DXT, file_id: 14997947946136418266, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libmultimapDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             332      9.6120      9.6124   140677929441088
+ X_POSIX       0   read        1             332               0      9.6124      9.6124   140677929441088
+
+# DXT, file_id: 2700080307613753309, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libunordered_mapDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             925      9.6129      9.6132   140677929441088
+ X_POSIX       0   read        1             925               0      9.6132      9.6132   140677929441088
+
+# DXT, file_id: 533918216352800315, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/liblistDict.rootmap
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             230      9.6137      9.6140   140677929441088
+ X_POSIX       0   read        1             230               0      9.6140      9.6141   140677929441088
+
+# DXT, file_id: 15083314346338357568, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libNet.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.2267     13.2267   140677929441088
+ X_POSIX       0   read        1               0            5681     13.2443     13.2446   140677929441088
+ X_POSIX       0   read        2            5681               0     13.2446     13.2446   140677929441088
+
+# DXT, file_id: 10956641813146038719, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libMultiProc.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.2306     13.2306   140677929441088
+ X_POSIX       0   read        1               0           36302     13.2424     13.2428   140677929441088
+ X_POSIX       0   read        2           36302               0     13.2428     13.2428   140677929441088
+
+# DXT, file_id: 3191381385423918161, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libImt.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.2309     13.2309   140677929441088
+ X_POSIX       0   read        1               0            3266     13.2412     13.2414   140677929441088
+ X_POSIX       0   read        2            3266               0     13.2414     13.2415   140677929441088
+
+# DXT, file_id: 1013111623024300943, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libMathCore.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.2353     13.2353   140677929441088
+ X_POSIX       0   read        1               0            1255     13.2400     13.2402   140677929441088
+ X_POSIX       0   read        2            1255               0     13.2402     13.2402   140677929441088
+
+# DXT, file_id: 12131335905536071839, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libTree.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.2373     13.2373   140677929441088
+ X_POSIX       0   read        1               0            1642     13.2384     13.2387   140677929441088
+ X_POSIX       0   read        2            1642               0     13.2387     13.2387   140677929441088
+
+# DXT, file_id: 13889719261507667538, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libROOTMLDataLoader.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 6
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.6715     13.6718   140677929441088
+ X_POSIX       0   read        1            8191            8191     13.8623     13.8623   140677929441088
+ X_POSIX       0   read        2               0           10745     14.7573     14.7577   140677929441088
+ X_POSIX       0   read        3           10745               0     14.7577     14.7577   140677929441088
+ X_POSIX       0   read        4           10745               6     15.1284     15.1284   140677929441088
+ X_POSIX       0   read        5           10751               0     15.1284     15.1284   140677929441088
+
+# DXT, file_id: 2100538083059817031, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libROOTVecOps.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.7987     13.7987   140677929441088
+ X_POSIX       0   read        1            8191               6     15.1284     15.1284   140677929441088
+ X_POSIX       0   read        2            8197               0     15.1284     15.1284   140677929441088
+
+# DXT, file_id: 7058239049895568080, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libROOTNTuple.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8027     13.8027   140677929441088
+ X_POSIX       0   read        1            8191               6     15.1284     15.1284   140677929441088
+ X_POSIX       0   read        2            8197               0     15.1284     15.1284   140677929441088
+
+# DXT, file_id: 8135776646829005144, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libMatrix.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8371     13.8371   140677929441088
+ X_POSIX       0   read        1            8191               5     15.1283     15.1283   140677929441088
+ X_POSIX       0   read        2            8196               0     15.1283     15.1283   140677929441088
+
+# DXT, file_id: 6873507815820056677, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libHist.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8422     13.8424   140677929441088
+ X_POSIX       0   read        1               0           23024     14.7807     14.7810   140677929441088
+ X_POSIX       0   read        2           23024               0     14.7810     14.7810   140677929441088
+
+# DXT, file_id: 3023944708849914359, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libGraf.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8445     13.8445   140677929441088
+ X_POSIX       0   read        1               0           23554     14.7789     14.7793   140677929441088
+ X_POSIX       0   read        2           23554               0     14.7793     14.7794   140677929441088
+
+# DXT, file_id: 16786986982505859710, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libGpad.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8459     13.8459   140677929441088
+ X_POSIX       0   read        1               0            1447     14.7672     14.7675   140677929441088
+ X_POSIX       0   read        2            1447               0     14.7675     14.7675   140677929441088
+
+# DXT, file_id: 12845593307631155980, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libGraf3d.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8472     13.8472   140677929441088
+ X_POSIX       0   read        1               0            1422     14.7650     14.7652   140677929441088
+ X_POSIX       0   read        2            1422               0     14.7652     14.7652   140677929441088
+
+# DXT, file_id: 2268470805330228648, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libTreePlayer.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8586     13.8586   140677929441088
+ X_POSIX       0   read        1               0            8285     14.7614     14.7617   140677929441088
+ X_POSIX       0   read        2            8285               0     14.7617     14.7617   140677929441088
+
+# DXT, file_id: 13086422541145764050, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/lib/libROOTDataFrame.so
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 3
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            8191     13.8618     13.8618   140677929441088
+ X_POSIX       0   read        1               0            1222     14.7602     14.7604   140677929441088
+ X_POSIX       0   read        2            1222               0     14.7604     14.7604   140677929441088
+
+# DXT, file_id: 3272739013751369092, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/cuda/random.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5400     13.8809     13.8812   140677929441088
+ X_POSIX       0   read        1            5400               0     13.8813     13.8813   140677929441088
+
+# DXT, file_id: 11126258446214715465, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/random.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            9835     13.8817     13.8821   140677929441088
+ X_POSIX       0   read        1            9835               0     13.8822     13.8822   140677929441088
+
+# DXT, file_id: 5475480354130711236, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/xpu/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           51174     13.8828     13.8833   140677929441088
+ X_POSIX       0   read        1           51174               0     13.8835     13.8835   140677929441088
+
+# DXT, file_id: 14141404773781425603, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/xpu/random.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5282     13.8839     13.8842   140677929441088
+ X_POSIX       0   read        1            5282               0     13.8842     13.8842   140677929441088
+
+# DXT, file_id: 16881445623506483514, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/mtia/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           18991     13.8849     13.8852   140677929441088
+ X_POSIX       0   read        1           18991               0     13.8853     13.8853   140677929441088
+
+# DXT, file_id: 16836983411876409913, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P010_TWebFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             171     14.8687     14.8689   140677929441088
+ X_POSIX       0   read        1             171             171     14.8693     14.8693   140677929441088
+ X_POSIX       0   read        2             342               0     14.8693     14.8693   140677929441088
+ X_POSIX       0   read        3             342             171     14.8693     14.8694   140677929441088
+ X_POSIX       0   read        4             513               0     14.8694     14.8694   140677929441088
+ X_POSIX       0   read        5             513             171     14.8697     14.8697   140677929441088
+ X_POSIX       0   read        6             684               0     14.8697     14.8697   140677929441088
+ X_POSIX       0   read        7               0             171     14.8700     14.8700   140677929441088
+
+# DXT, file_id: 5077609131524493894, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P040_TDCacheFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             432     14.8745     14.8748   140677929441088
+ X_POSIX       0   read        1             432             432     14.8752     14.8752   140677929441088
+ X_POSIX       0   read        2             864               0     14.8752     14.8752   140677929441088
+ X_POSIX       0   read        3             864             432     14.8752     14.8753   140677929441088
+ X_POSIX       0   read        4            1296               0     14.8753     14.8753   140677929441088
+ X_POSIX       0   read        5            1296             432     14.8756     14.8756   140677929441088
+ X_POSIX       0   read        6            1728               0     14.8756     14.8756   140677929441088
+ X_POSIX       0   read        7               0             432     14.8758     14.8758   140677929441088
+
+# DXT, file_id: 18351484103841319901, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P080_TXMLFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             154     14.8798     14.8801   140677929441088
+ X_POSIX       0   read        1             154             154     14.8804     14.8804   140677929441088
+ X_POSIX       0   read        2             308               0     14.8804     14.8804   140677929441088
+ X_POSIX       0   read        3             308             154     14.8805     14.8805   140677929441088
+ X_POSIX       0   read        4             462               0     14.8805     14.8805   140677929441088
+ X_POSIX       0   read        5             462             154     14.8808     14.8808   140677929441088
+ X_POSIX       0   read        6             616               0     14.8808     14.8808   140677929441088
+ X_POSIX       0   read        7               0             154     14.8810     14.8810   140677929441088
+
+# DXT, file_id: 3788697206711857454, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P100_TXNetFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             176     14.8845     14.8848   140677929441088
+ X_POSIX       0   read        1             176             176     14.8852     14.8852   140677929441088
+ X_POSIX       0   read        2             352               0     14.8852     14.8852   140677929441088
+ X_POSIX       0   read        3             352             176     14.8852     14.8852   140677929441088
+ X_POSIX       0   read        4             528               0     14.8852     14.8853   140677929441088
+ X_POSIX       0   read        5             528             176     14.8856     14.8856   140677929441088
+ X_POSIX       0   read        6             704               0     14.8856     14.8856   140677929441088
+ X_POSIX       0   read        7               0             176     14.8858     14.8858   140677929441088
+
+# DXT, file_id: 10261753898858355418, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P120_TNetFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 6
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1196     14.8893     14.8897   140677929441088
+ X_POSIX       0   read        1            1196            1196     14.8900     14.8900   140677929441088
+ X_POSIX       0   read        2            2392            1196     14.8900     14.8900   140677929441088
+ X_POSIX       0   read        3            3588               0     14.8900     14.8901   140677929441088
+ X_POSIX       0   read        4            3588            1196     14.8904     14.8904   140677929441088
+ X_POSIX       0   read        5               0            1196     14.8906     14.8906   140677929441088
+
+# DXT, file_id: 5494132104523509823, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P130_TDavixFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             687     14.8945     14.8949   140677929441088
+ X_POSIX       0   read        1             687             687     14.8952     14.8952   140677929441088
+ X_POSIX       0   read        2            1374               0     14.8952     14.8952   140677929441088
+ X_POSIX       0   read        3            1374             687     14.8953     14.8953   140677929441088
+ X_POSIX       0   read        4            2061               0     14.8953     14.8953   140677929441088
+ X_POSIX       0   read        5            2061             687     14.8956     14.8956   140677929441088
+ X_POSIX       0   read        6            2748               0     14.8956     14.8956   140677929441088
+ X_POSIX       0   read        7               0             687     14.8958     14.8958   140677929441088
+
+# DXT, file_id: 2091430140059786489, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P140_TCurlFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             337     14.9075     14.9078   140677929441088
+ X_POSIX       0   read        1             337             337     14.9081     14.9081   140677929441088
+ X_POSIX       0   read        2             674               0     14.9081     14.9081   140677929441088
+ X_POSIX       0   read        3             674             337     14.9081     14.9082   140677929441088
+ X_POSIX       0   read        4            1011               0     14.9082     14.9082   140677929441088
+ X_POSIX       0   read        5            1011             337     14.9085     14.9085   140677929441088
+ X_POSIX       0   read        6            1348               0     14.9085     14.9085   140677929441088
+ X_POSIX       0   read        7               0             337     14.9087     14.9087   140677929441088
+
+# DXT, file_id: 10623542732318330273, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TFile/P150_TS3WebFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             623     14.9151     14.9153   140677929441088
+ X_POSIX       0   read        1             623             623     14.9159     14.9159   140677929441088
+ X_POSIX       0   read        2            1246               0     14.9159     14.9159   140677929441088
+ X_POSIX       0   read        3            1246             623     14.9159     14.9159   140677929441088
+ X_POSIX       0   read        4            1869               0     14.9159     14.9159   140677929441088
+ X_POSIX       0   read        5            1869             623     14.9162     14.9162   140677929441088
+ X_POSIX       0   read        6            2492               0     14.9162     14.9163   140677929441088
+ X_POSIX       0   read        7               0             623     14.9165     14.9165   140677929441088
+
+# DXT, file_id: 65705615771599843, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/etc/plugins/TArchiveFile/P010_TZIPFile.C
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 8
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             151     14.9211     14.9214   140677929441088
+ X_POSIX       0   read        1             151             151     14.9217     14.9217   140677929441088
+ X_POSIX       0   read        2             302               0     14.9217     14.9218   140677929441088
+ X_POSIX       0   read        3             302             151     14.9218     14.9218   140677929441088
+ X_POSIX       0   read        4             453               0     14.9218     14.9218   140677929441088
+ X_POSIX       0   read        5             453             151     14.9221     14.9221   140677929441088
+ X_POSIX       0   read        6             604               0     14.9221     14.9222   140677929441088
+ X_POSIX       0   read        7               0             151     14.9224     14.9224   140677929441088
+
+# DXT, file_id: 2684797316911919626, file_name: /pscratch/sd/s/satt/sprints/data/roots/mc_normalized_rntuple_10M_9.root
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 2
+# DXT, write_count: 0, read_count: 205
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0             300     14.9257     14.9265   140677929441088
+ X_POSIX       0   read        1      1250865843             125     14.9266     14.9269   140677929441088
+ X_POSIX       0   read        2      1250865968             386     14.9269     14.9269   140677929441088
+ X_POSIX       0   read        3      1250865711             132     14.9325     14.9325   140677929441088
+ X_POSIX       0   read        4      1250865711             132     14.9325     14.9325   140677929441088
+ X_POSIX       0   read        5               0         4194304     14.9332     14.9403   140677929441088
+ X_POSIX       0   read        6      1250865843             588     14.9404     14.9404   140677929441088
+ X_POSIX       0   read        7      1250866431               0     14.9404     14.9404   140677929441088
+ X_POSIX       0   read        8      1250865711             720     14.9404     14.9404   140677929441088
+ X_POSIX       0   read        9      1250866431               0     14.9404     14.9404   140677929441088
+ X_POSIX       0   read       10             306         4194304     14.9408     14.9419   140677929441088
+ X_POSIX       0   read       11      1250865621             810     14.9419     14.9419   140677929441088
+ X_POSIX       0   read       12      1250866431               0     14.9419     14.9419   140677929441088
+ X_POSIX       0   read       13      1250853546           12885     14.9445     14.9448   140677929441088
+ X_POSIX       0   read       14      1250866431               0     14.9448     14.9448   140677929441088
+ X_POSIX       0   read       15               0         4194304     21.1054     21.1059   140677929441088
+ X_POSIX       0   read       16      1250865843             588     21.1059     21.1060   140677929441088
+ X_POSIX       0   read       17      1250866431               0     21.1060     21.1060   140677929441088
+ X_POSIX       0   read       18      1250865711             720     21.1060     21.1060   140677929441088
+ X_POSIX       0   read       19      1250866431               0     21.1060     21.1060   140677929441088
+ X_POSIX       0   read       20             306         4194304     21.1060     21.1063   140677929441088
+ X_POSIX       0   read       21      1250865621             810     21.1063     21.1063   140677929441088
+ X_POSIX       0   read       22      1250866431               0     21.1063     21.1064   140677929441088
+ X_POSIX       0   read       23      1250853546           12885     21.1064     21.1064   140677929441088
+ X_POSIX       0   read       24      1250866431               0     21.1065     21.1065   140677929441088
+ X_POSIX       0   read       25             701       198846222     22.4846     22.6496   140671271515840
+ X_POSIX       0   read       26       198852226        11555358     22.6496     22.6604   140671271515840
+ X_POSIX       0   read       27       210407626       127197944     22.6605     22.7703   140671271515840
+ X_POSIX       0   read       28       337608854         7385856     22.7703     22.7813   140671271515840
+ X_POSIX       0   read       29       344994752       127395779     60.3432     60.4584   140671271515840
+ X_POSIX       0   read       30       472393180         7409742     60.4585     60.4604   140671271515840
+ X_POSIX       0   read       31       479802964       126286026     84.7544     84.9130   140671271515840
+ X_POSIX       0   read       32       606092770         7340142     84.9130     84.9154   140671271515840
+ X_POSIX       0   read       33       613432954       127582302    109.7245    109.8804   140671271515840
+ X_POSIX       0   read       34       741017517         7410422    109.8804    109.8824   140671271515840
+ X_POSIX       0   read       35       748427981       126330270    131.8478    132.0021   140671271515840
+ X_POSIX       0   read       36       874762026         7352156    132.0022    132.0047   140671271515840
+ X_POSIX       0   read       37       882114224       127245188    154.1052    154.2539   140671271515840
+ X_POSIX       0   read       38      1009362339         7391620    154.2539    154.2565   140671271515840
+ X_POSIX       0   read       39      1016754001       126934917    176.3154    176.4612   140671271515840
+ X_POSIX       0   read       40      1143691866         7390699    176.4613    176.4635   140671271515840
+ X_POSIX       0   read       41      1151082607        94289937    198.3902    198.4658   140671271515840
+ X_POSIX       0   read       42      1245374873         5478631    198.4658    198.4688   140671271515840
+ X_POSIX       0   read       43             701       198846222    236.8356    236.8768   140671271515840
+ X_POSIX       0   read       44       198852226        11555358    236.8768    236.8794   140671271515840
+ X_POSIX       0   read       45       210407626       127197944    236.8795    236.9065   140671271515840
+ X_POSIX       0   read       46       337608854         7385856    236.9065    236.9080   140671271515840
+ X_POSIX       0   read       47       344994752       127395779    271.5205    271.5473   140671271515840
+ X_POSIX       0   read       48       472393180         7409742    271.5473    271.5492   140671271515840
+ X_POSIX       0   read       49       479802964       126286026    293.7494    293.7762   140671271515840
+ X_POSIX       0   read       50       606092770         7340142    293.7762    293.7777   140671271515840
+ X_POSIX       0   read       51       613432954       127582302    315.9817    316.0085   140671271515840
+ X_POSIX       0   read       52       741017517         7410422    316.0085    316.0099   140671271515840
+ X_POSIX       0   read       53       748427981       126330270    338.1051    338.1314   140671271515840
+ X_POSIX       0   read       54       874762026         7352156    338.1314    338.1333   140671271515840
+ X_POSIX       0   read       55       882114224       127245188    360.4103    360.4370   140671271515840
+ X_POSIX       0   read       56      1009362339         7391620    360.4370    360.4389   140671271515840
+ X_POSIX       0   read       57      1016754001       126934917    382.5980    382.6245   140671271515840
+ X_POSIX       0   read       58      1143691866         7390699    382.6245    382.6259   140671271515840
+ X_POSIX       0   read       59      1151082607        94289937    404.8512    404.8706   140671271515840
+ X_POSIX       0   read       60      1245374873         5478631    404.8706    404.8720   140671271515840
+ X_POSIX       0   read       61             701       198846222    443.5732    443.6041   140671271515840
+ X_POSIX       0   read       62       198852226        11555358    443.6041    443.6059   140671271515840
+ X_POSIX       0   read       63       210407626       127197944    443.6060    443.6268   140671271515840
+ X_POSIX       0   read       64       337608854         7385856    443.6268    443.6284   140671271515840
+ X_POSIX       0   read       65       344994752       127395779    478.2183    478.2387   140671271515840
+ X_POSIX       0   read       66       472393180         7409742    478.2388    478.2402   140671271515840
+ X_POSIX       0   read       67       479802964       126286026    500.3617    500.3818   140671271515840
+ X_POSIX       0   read       68       606092770         7340142    500.3818    500.3829   140671271515840
+ X_POSIX       0   read       69       613432954       127582302    522.5463    522.5666   140671271515840
+ X_POSIX       0   read       70       741017517         7410422    522.5666    522.5677   140671271515840
+ X_POSIX       0   read       71       748427981       126330270    544.7062    544.7261   140671271515840
+ X_POSIX       0   read       72       874762026         7352156    544.7261    544.7275   140671271515840
+ X_POSIX       0   read       73       882114224       127245188    566.9907    567.0108   140671271515840
+ X_POSIX       0   read       74      1009362339         7391620    567.0108    567.0123   140671271515840
+ X_POSIX       0   read       75      1016754001       126934917    589.1759    589.1958   140671271515840
+ X_POSIX       0   read       76      1143691866         7390699    589.1958    589.1968   140671271515840
+ X_POSIX       0   read       77      1151082607        94289937    611.4256    611.4403   140671271515840
+ X_POSIX       0   read       78      1245374873         5478631    611.4403    611.4414   140671271515840
+ X_POSIX       0   read       79             701       198846222    650.1975    650.2282   140671271515840
+ X_POSIX       0   read       80       198852226        11555358    650.2282    650.2299   140671271515840
+ X_POSIX       0   read       81       210407626       127197944    650.2300    650.2506   140671271515840
+ X_POSIX       0   read       82       337608854         7385856    650.2506    650.2522   140671271515840
+ X_POSIX       0   read       83       344994752       127395779    685.0669    685.0872   140671271515840
+ X_POSIX       0   read       84       472393180         7409742    685.0872    685.0886   140671271515840
+ X_POSIX       0   read       85       479802964       126286026    707.3623    707.3824   140671271515840
+ X_POSIX       0   read       86       606092770         7340142    707.3825    707.3836   140671271515840
+ X_POSIX       0   read       87       613432954       127582302    729.6617    729.6819   140671271515840
+ X_POSIX       0   read       88       741017517         7410422    729.6819    729.6830   140671271515840
+ X_POSIX       0   read       89       748427981       126330270    751.7710    751.7906   140671271515840
+ X_POSIX       0   read       90       874762026         7352156    751.7907    751.7921   140671271515840
+ X_POSIX       0   read       91       882114224       127245188    774.0844    774.1044   140671271515840
+ X_POSIX       0   read       92      1009362339         7391620    774.1044    774.1058   140671271515840
+ X_POSIX       0   read       93      1016754001       126934917    796.3175    796.3371   140671271515840
+ X_POSIX       0   read       94      1143691866         7390699    796.3371    796.3382   140671271515840
+ X_POSIX       0   read       95      1151082607        94289937    819.4099    819.4242   140671271515840
+ X_POSIX       0   read       96      1245374873         5478631    819.4242    819.4254   140671271515840
+ X_POSIX       0   read       97             701       198846222    858.6328    858.6632   140671271515840
+ X_POSIX       0   read       98       198852226        11555358    858.6632    858.6649   140671271515840
+ X_POSIX       0   read       99       210407626       127197944    858.6650    858.6855   140671271515840
+ X_POSIX       0   read      100       337608854         7385856    858.6856    858.6872   140671271515840
+ X_POSIX       0   read      101       344994752       127395779    893.5982    893.6184   140671271515840
+ X_POSIX       0   read      102       472393180         7409742    893.6184    893.6198   140671271515840
+ X_POSIX       0   read      103       479802964       126286026    915.9798    915.9995   140671271515840
+ X_POSIX       0   read      104       606092770         7340142    915.9995    916.0006   140671271515840
+ X_POSIX       0   read      105       613432954       127582302    938.3188    938.3386   140671271515840
+ X_POSIX       0   read      106       741017517         7410422    938.3386    938.3396   140671271515840
+ X_POSIX       0   read      107       748427981       126330270    960.5510    960.5704   140671271515840
+ X_POSIX       0   read      108       874762026         7352156    960.5704    960.5718   140671271515840
+ X_POSIX       0   read      109       882114224       127245188    982.8295    982.8492   140671271515840
+ X_POSIX       0   read      110      1009362339         7391620    982.8492    982.8507   140671271515840
+ X_POSIX       0   read      111      1016754001       126934917   1004.9624   1004.9820   140671271515840
+ X_POSIX       0   read      112      1143691866         7390699   1004.9820   1004.9830   140671271515840
+ X_POSIX       0   read      113      1151082607        94289937   1027.2487   1027.2632   140671271515840
+ X_POSIX       0   read      114      1245374873         5478631   1027.2632   1027.2644   140671271515840
+ X_POSIX       0   read      115             701       198846222   1066.1244   1066.1549   140671271515840
+ X_POSIX       0   read      116       198852226        11555358   1066.1549   1066.1566   140671271515840
+ X_POSIX       0   read      117       210407626       127197944   1066.1567   1066.1774   140671271515840
+ X_POSIX       0   read      118       337608854         7385856   1066.1774   1066.1790   140671271515840
+ X_POSIX       0   read      119       344994752       127395779   1100.9486   1100.9689   140671271515840
+ X_POSIX       0   read      120       472393180         7409742   1100.9689   1100.9703   140671271515840
+ X_POSIX       0   read      121       479802964       126286026   1123.1801   1123.2001   140671271515840
+ X_POSIX       0   read      122       606092770         7340142   1123.2001   1123.2012   140671271515840
+ X_POSIX       0   read      123       613432954       127582302   1145.4388   1145.4590   140671271515840
+ X_POSIX       0   read      124       741017517         7410422   1145.4590   1145.4601   140671271515840
+ X_POSIX       0   read      125       748427981       126330270   1167.5672   1167.5867   140671271515840
+ X_POSIX       0   read      126       874762026         7352156   1167.5868   1167.5882   140671271515840
+ X_POSIX       0   read      127       882114224       127245188   1189.8288   1189.8487   140671271515840
+ X_POSIX       0   read      128      1009362339         7391620   1189.8487   1189.8502   140671271515840
+ X_POSIX       0   read      129      1016754001       126934917   1211.9867   1212.0064   140671271515840
+ X_POSIX       0   read      130      1143691866         7390699   1212.0064   1212.0074   140671271515840
+ X_POSIX       0   read      131      1151082607        94289937   1234.1963   1234.2106   140671271515840
+ X_POSIX       0   read      132      1245374873         5478631   1234.2106   1234.2117   140671271515840
+ X_POSIX       0   read      133             701       198846222   1273.1151   1273.1454   140671271515840
+ X_POSIX       0   read      134       198852226        11555358   1273.1454   1273.1471   140671271515840
+ X_POSIX       0   read      135       210407626       127197944   1273.1472   1273.1677   140671271515840
+ X_POSIX       0   read      136       337608854         7385856   1273.1677   1273.1693   140671271515840
+ X_POSIX       0   read      137       344994752       127395779   1308.1378   1308.1580   140671271515840
+ X_POSIX       0   read      138       472393180         7409742   1308.1580   1308.1594   140671271515840
+ X_POSIX       0   read      139       479802964       126286026   1330.5149   1330.5351   140671271515840
+ X_POSIX       0   read      140       606092770         7340142   1330.5351   1330.5363   140671271515840
+ X_POSIX       0   read      141       613432954       127582302   1352.8574   1352.8774   140671271515840
+ X_POSIX       0   read      142       741017517         7410422   1352.8774   1352.8785   140671271515840
+ X_POSIX       0   read      143       748427981       126330270   1375.3362   1375.3565   140671271515840
+ X_POSIX       0   read      144       874762026         7352156   1375.3565   1375.3580   140671271515840
+ X_POSIX       0   read      145       882114224       127245188   1398.0381   1398.0589   140671271515840
+ X_POSIX       0   read      146      1009362339         7391620   1398.0589   1398.0604   140671271515840
+ X_POSIX       0   read      147      1016754001       126934917   1420.5977   1420.6180   140671271515840
+ X_POSIX       0   read      148      1143691866         7390699   1420.6180   1420.6191   140671271515840
+ X_POSIX       0   read      149      1151082607        94289937   1443.2425   1443.2575   140671271515840
+ X_POSIX       0   read      150      1245374873         5478631   1443.2575   1443.2586   140671271515840
+ X_POSIX       0   read      151             701       198846222   1482.6866   1482.7175   140671271515840
+ X_POSIX       0   read      152       198852226        11555358   1482.7175   1482.7192   140671271515840
+ X_POSIX       0   read      153       210407626       127197944   1482.7193   1482.7397   140671271515840
+ X_POSIX       0   read      154       337608854         7385856   1482.7397   1482.7413   140671271515840
+ X_POSIX       0   read      155       344994752       127395779   1518.2521   1518.2729   140671271515840
+ X_POSIX       0   read      156       472393180         7409742   1518.2730   1518.2744   140671271515840
+ X_POSIX       0   read      157       479802964       126286026   1541.0146   1541.0352   140671271515840
+ X_POSIX       0   read      158       606092770         7340142   1541.0352   1541.0363   140671271515840
+ X_POSIX       0   read      159       613432954       127582302   1563.7996   1563.8203   140671271515840
+ X_POSIX       0   read      160       741017517         7410422   1563.8203   1563.8214   140671271515840
+ X_POSIX       0   read      161       748427981       126330270   1586.4557   1586.4756   140671271515840
+ X_POSIX       0   read      162       874762026         7352156   1586.4757   1586.4771   140671271515840
+ X_POSIX       0   read      163       882114224       127245188   1609.1559   1609.1762   140671271515840
+ X_POSIX       0   read      164      1009362339         7391620   1609.1762   1609.1777   140671271515840
+ X_POSIX       0   read      165      1016754001       126934917   1631.6245   1631.6449   140671271515840
+ X_POSIX       0   read      166      1143691866         7390699   1631.6449   1631.6460   140671271515840
+ X_POSIX       0   read      167      1151082607        94289937   1654.1829   1654.1981   140671271515840
+ X_POSIX       0   read      168      1245374873         5478631   1654.1981   1654.1992   140671271515840
+ X_POSIX       0   read      169             701       198846222   1693.5231   1693.5541   140671271515840
+ X_POSIX       0   read      170       198852226        11555358   1693.5541   1693.5558   140671271515840
+ X_POSIX       0   read      171       210407626       127197944   1693.5559   1693.5763   140671271515840
+ X_POSIX       0   read      172       337608854         7385856   1693.5763   1693.5779   140671271515840
+ X_POSIX       0   read      173       344994752       127395779   1728.9052   1728.9262   140671271515840
+ X_POSIX       0   read      174       472393180         7409742   1728.9262   1728.9276   140671271515840
+ X_POSIX       0   read      175       479802964       126286026   1751.5298   1751.5498   140671271515840
+ X_POSIX       0   read      176       606092770         7340142   1751.5498   1751.5510   140671271515840
+ X_POSIX       0   read      177       613432954       127582302   1774.0196   1774.0397   140671271515840
+ X_POSIX       0   read      178       741017517         7410422   1774.0397   1774.0408   140671271515840
+ X_POSIX       0   read      179       748427981       126330270   1796.3723   1796.3919   140671271515840
+ X_POSIX       0   read      180       874762026         7352156   1796.3919   1796.3934   140671271515840
+ X_POSIX       0   read      181       882114224       127245188   1818.8262   1818.8461   140671271515840
+ X_POSIX       0   read      182      1009362339         7391620   1818.8461   1818.8476   140671271515840
+ X_POSIX       0   read      183      1016754001       126934917   1841.1749   1841.1946   140671271515840
+ X_POSIX       0   read      184      1143691866         7390699   1841.1946   1841.1956   140671271515840
+ X_POSIX       0   read      185      1151082607        94289937   1863.6022   1863.6167   140671271515840
+ X_POSIX       0   read      186      1245374873         5478631   1863.6167   1863.6178   140671271515840
+ X_POSIX       0   read      187             701       198846222   1902.7333   1902.7640   140671271515840
+ X_POSIX       0   read      188       198852226        11555358   1902.7640   1902.7657   140671271515840
+ X_POSIX       0   read      189       210407626       127197944   1902.7658   1902.7866   140671271515840
+ X_POSIX       0   read      190       337608854         7385856   1902.7866   1902.7883   140671271515840
+ X_POSIX       0   read      191       344994752       127395779   1937.8209   1937.8412   140671271515840
+ X_POSIX       0   read      192       472393180         7409742   1937.8412   1937.8426   140671271515840
+ X_POSIX       0   read      193       479802964       126286026   1960.2903   1960.3101   140671271515840
+ X_POSIX       0   read      194       606092770         7340142   1960.3102   1960.3113   140671271515840
+ X_POSIX       0   read      195       613432954       127582302   1982.7890   1982.8090   140671271515840
+ X_POSIX       0   read      196       741017517         7410422   1982.8090   1982.8101   140671271515840
+ X_POSIX       0   read      197       748427981       126330270   2005.1867   2005.2064   140671271515840
+ X_POSIX       0   read      198       874762026         7352156   2005.2064   2005.2078   140671271515840
+ X_POSIX       0   read      199       882114224       127245188   2027.7284   2027.7482   140671271515840
+ X_POSIX       0   read      200      1009362339         7391620   2027.7482   2027.7497   140671271515840
+ X_POSIX       0   read      201      1016754001       126934917   2050.1646   2050.1844   140671271515840
+ X_POSIX       0   read      202      1143691866         7390699   2050.1844   2050.1854   140671271515840
+ X_POSIX       0   read      203      1151082607        94289937   2072.6078   2072.6220   140671271515840
+ X_POSIX       0   read      204      1245374873         5478631   2072.6220   2072.6232   140671271515840
+
+# DXT, file_id: 14783080254133354141, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/cProfile.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            6624     15.1965     15.1973   140677929441088
+ X_POSIX       0   read        1            6624               0     15.1973     15.1973   140677929441088
+
+# DXT, file_id: 10339253022257360853, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/profile.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           23140     15.2083     15.2090   140677929441088
+ X_POSIX       0   read        1           23140               0     15.2090     15.2090   140677929441088
+
+# DXT, file_id: 520984009805955916, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/pstats.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           29296     15.2146     15.2155   140677929441088
+ X_POSIX       0   read        1           29296               0     15.2155     15.2155   140677929441088
+
+# DXT, file_id: 7424132016171605805, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_dynamo/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           40923     15.2335     15.2340   140677929441088
+ X_POSIX       0   read        1           40923               0     15.2341     15.2341   140677929441088
+
+# DXT, file_id: 638160032168586434, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_functorch/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           20401     15.2493     15.2497   140677929441088
+ X_POSIX       0   read        1           20401               0     15.2498     15.2498   140677929441088
+
+# DXT, file_id: 10698964500865088362, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/secrets.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1984     16.1713     16.1723   140677929441088
+ X_POSIX       0   read        1            1984               0     16.1723     16.1723   140677929441088
+
+# DXT, file_id: 16079352507611435284, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton/language/standard.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           17052     17.6850     17.6854   140677929441088
+ X_POSIX       0   read        1           17052               0     17.6855     17.6856   140677929441088
+
+# DXT, file_id: 4826279103842746394, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton/language/core.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0          124780     17.6864     17.6870   140677929441088
+ X_POSIX       0   read        1          124780               0     17.6873     17.6873   140677929441088
+
+# DXT, file_id: 14645492542746006672, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton/language/random.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            7116     17.6972     17.6975   140677929441088
+ X_POSIX       0   read        1            7116               0     17.6975     17.6975   140677929441088
+
+# DXT, file_id: 6000040207428783113, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton/language/target_info.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1364     17.7015     17.7018   140677929441088
+ X_POSIX       0   read        1            1364               0     17.7018     17.7019   140677929441088
+
+# DXT, file_id: 16380563606398191784, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/statistics.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           62181     17.7078     17.7088   140677929441088
+ X_POSIX       0   read        1           62181               0     17.7088     17.7088   140677929441088
+
+# DXT, file_id: 16306250586438769937, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/triton/__init__.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            1683     17.7192     17.7195   140677929441088
+ X_POSIX       0   read        1            1683               0     17.7195     17.7196   140677929441088
+
+# DXT, file_id: 16576971484021804987, file_name: /global/common/software/nersc/pe/conda-envs/26.8.0/python-3.13/nersc-python/lib/python3.13/ctypes/wintypes.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /global/common, fs_type: dvs
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0            5629     17.7452     17.7459   140677929441088
+ X_POSIX       0   read        1            5629               0     17.7459     17.7459   140677929441088
+
+# DXT, file_id: 17940878373007722244, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_inductor/config.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0          123526     17.7530     17.7536   140677929441088
+ X_POSIX       0   read        1          123526               0     17.7539     17.7539   140677929441088
+
+# DXT, file_id: 14086445277288911085, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/distributed/_functional_collectives.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           70645     18.1573     18.1579   140677929441088
+ X_POSIX       0   read        1           70645               0     18.1582     18.1582   140677929441088
+
+# DXT, file_id: 17764485258226796888, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/distributed/tensor/_collective_utils.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           22865     18.1705     18.1710   140677929441088
+ X_POSIX       0   read        1           22865               0     18.1711     18.1711   140677929441088
+
+# DXT, file_id: 13243047801802781465, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_dynamo/_trace_wrapped_higher_order_op.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           10330     18.4475     18.4479   140677929441088
+ X_POSIX       0   read        1           10330               0     18.4480     18.4480   140677929441088
+
+# DXT, file_id: 5662796001238190359, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/_dynamo/variables/streams.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           25981     18.4781     18.4792   140677929441088
+ X_POSIX       0   read        1           25981               0     18.4793     18.4794   140677929441088
+
+# DXT, file_id: 12469281378519769883, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/onnx/ops/_impl.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           20481     18.5629     18.5634   140677929441088
+ X_POSIX       0   read        1           20481               0     18.5635     18.5635   140677929441088
+
+# DXT, file_id: 10073150524068806048, file_name: /pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/torch/onnx/ops/_symbolic_impl.py
+# DXT, rank: 0, hostname: nid004701
+# DXT, number of threads: 1
+# DXT, write_count: 0, read_count: 2
+# DXT, mnt_pt: /pscratch, fs_type: lustre
+# Module    Rank  Wt/Rd  Segment          Offset          Length    Start(s)      End(s)   Pthread-ID
+ X_POSIX       0   read        0               0           11482     18.5690     18.5699   140677929441088
+ X_POSIX       0   read        1           11482               0     18.5700     18.5700   140677929441088

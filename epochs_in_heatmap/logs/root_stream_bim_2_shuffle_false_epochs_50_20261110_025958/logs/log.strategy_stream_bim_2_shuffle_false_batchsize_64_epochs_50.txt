@@ -1,0 +1,1479 @@
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+TRACE_EVENT {"event":"imports_start","unix_ns":1794308400956056118,"utc":"2026-11-10T11:00:00.956056118Z"}
+/pscratch/sd/s/satt/sprints/myvenv/lib/python3.13/site-packages/ROOT/__init__.py:222: UserWarning: 
+This distribution of ROOT is in alpha stage. Feedback is welcome and appreciated. Feel free to reach out to the user forum for questions and general feedback at https://root-forum.cern.ch or to submit an issue at https://github.com/root-project/root/issues. Do not rely on this distribution for production purposes.
+
+  warnings.warn(
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+TRACE_EVENT {"event":"imports_end","unix_ns":1794308419771643767,"utc":"2026-11-10T11:00:19.771643767Z"}
+TRACE_EVENT {"event":"main_start","unix_ns":1794308419771994727,"utc":"2026-11-10T11:00:19.771994727Z"}
+TRACE_EVENT {"event":"train_start","unix_ns":1794308419813121973,"utc":"2026-11-10T11:00:19.813121973Z"}
+TRACE_EVENT {"event":"debug","unix_ns":1794308419813180586,"utc":"2026-11-10T11:00:19.813180586Z","message":"configuration: strategy=stream shuffle=False batch_size=64 prefetch_factor=4 epochs=50"}
+TRACE_EVENT {"event":"device_setup_start","unix_ns":1794308419813203420,"utc":"2026-11-10T11:00:19.813203420Z","device":"cpu"}
+TRACE_EVENT {"event":"device_setup_end","unix_ns":1794308419813254289,"utc":"2026-11-10T11:00:19.813254289Z","device":"cpu"}
+TRACE_EVENT {"event":"rdf_setup_start","unix_ns":1794308419813269258,"utc":"2026-11-10T11:00:19.813269258Z"}
+TRACE_EVENT {"event":"rdf_setup_end","unix_ns":1794308421009225091,"utc":"2026-11-10T11:00:21.009225091Z"}
+TRACE_EVENT {"event":"feature_selection_start","unix_ns":1794308421009298654,"utc":"2026-11-10T11:00:21.009298654Z"}
+TRACE_EVENT {"event":"feature_selection_end","unix_ns":1794308421078669018,"utc":"2026-11-10T11:00:21.078669018Z","num_features":18}
+TRACE_EVENT {"event":"model_setup_start","unix_ns":1794308421078720908,"utc":"2026-11-10T11:00:21.078720908Z","model":"M2"}
+TRACE_EVENT {"event":"model_setup_end","unix_ns":1794308425152139557,"utc":"2026-11-10T11:00:25.152139557Z","model":"M2"}
+TRACE_EVENT {"event":"loader_build_start","unix_ns":1794308425152210725,"utc":"2026-11-10T11:00:25.152210725Z","strategy":"stream"}
+TRACE_EVENT {"event":"loader_build_end","unix_ns":1794308425152251174,"utc":"2026-11-10T11:00:25.152251174Z","strategy":"stream"}
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794308425152318695,"utc":"2026-11-10T11:00:25.152318695Z","epoch":1,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794308425152345306,"utc":"2026-11-10T11:00:25.152345306Z","epoch":1}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794308430321963021,"utc":"2026-11-10T11:00:30.321963021Z","epoch":1}
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+##########################
+##### DARSHAN CONFIG #####
+##########################
+# MODMEM = 100 MiB
+# NAMEMEM = 1024 KiB
+# MEM_ALIGNMENT = 8 bytes
+# JOBID = NONE
+# LOGHINTS = NONE
+# LOGPATH = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# LOGPATH_BYENV = /pscratch/sd/s/satt/sprints/a_star_campaign/root/runs/root_stream_bim_2_shuffle_false_epochs_50_20261110_025958/darshan_logs/strategy_stream_bim_2_shuffle_false_batchsize_64_epochs_50
+# MMAP_LOGPATH = /tmp
+# EXCLUDE_DIRS = /etc/,/dev/,/usr/,/bin/,/boot/,/lib/,/opt/,/sbin/,/sys/,/proc/,/var/
+# APP_EXCLUDE = git,ls,sh,hostname,sed,g++,date,cc1plus,cat,which,tar,ld,prmon,uname,ps,rm,tee,srun
+# APP_INCLUDE = python,python3
+# RANK_EXCLUDE = NONE
+# RANK_INCLUDE = NONE
+# DXT_SMALL_IO_TRIGGER = 0.01
+# POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 5000
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MPI-IO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# H5F MODULE CONFIG:
+#      - DISABLED
+# H5D MODULE CONFIG:
+#      - DISABLED
+# PNETCDF_FILE MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# PNETCDF_VAR MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# BG/Q MODULE CONFIG:
+#      - DISABLED
+# LUSTRE MODULE CONFIG:
+#      - DISABLED
+# STDIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_POSIX MODULE CONFIG:
+#      - ENABLED
+#      - MAX_RECORDS = 325520
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DXT_MPIIO MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# MDHIM MODULE CONFIG:
+#      - DISABLED
+# APXC MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# APMPI MODULE CONFIG:
+#      - DISABLED
+# HEATMAP MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DFS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+# DAOS MODULE CONFIG:
+#      - ENABLED
+#      - NAME_EXCLUDE = .pyc$,^/cvmfs,^/lib64,^/lib,^/gpfs/,^/work2,^/tmp,^/dev,^/scratch1
+#      - NAME_INCLUDE = .py$,.root$
+##########################
+### END DARSHAN CONFIG ###
+##########################
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794308430711268989,"utc":"2026-11-10T11:00:30.711268989Z","epoch":1}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308497022986340,"utc":"2026-11-10T11:01:37.022986340Z","epoch":1,"batch":50000}
+  epoch 1/50  batch 50000  695.7 batches/s  elapsed 1m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308562276262908,"utc":"2026-11-10T11:02:42.276262908Z","epoch":1,"batch":100000}
+  epoch 1/50  batch 100000  729.3 batches/s  elapsed 2m17s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308628346162745,"utc":"2026-11-10T11:03:48.346162745Z","epoch":1,"batch":150000}
+  epoch 1/50  batch 150000  738.2 batches/s  elapsed 3m23s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794308636353183666,"utc":"2026-11-10T11:03:56.353183666Z","epoch":1,"batches":156250}
+epoch 1/50  loss 0.0274  batches 156250  time 211.20s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794308636353279722,"utc":"2026-11-10T11:03:56.353279722Z","epoch":2,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794308636353307876,"utc":"2026-11-10T11:03:56.353307876Z","epoch":2}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794308637452732286,"utc":"2026-11-10T11:03:57.452732286Z","epoch":2}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794308637455052633,"utc":"2026-11-10T11:03:57.455052633Z","epoch":2}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308703100638036,"utc":"2026-11-10T11:05:03.100638036Z","epoch":2,"batch":50000}
+  epoch 2/50  batch 50000  749.1 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308769268510673,"utc":"2026-11-10T11:06:09.268510673Z","epoch":2,"batch":100000}
+  epoch 2/50  batch 100000  752.4 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308835326841400,"utc":"2026-11-10T11:07:15.326841400Z","epoch":2,"batch":150000}
+  epoch 2/50  batch 150000  753.9 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794308843345838129,"utc":"2026-11-10T11:07:23.345838129Z","epoch":2,"batches":156250}
+epoch 2/50  loss 0.0268  batches 156250  time 206.99s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794308843345918394,"utc":"2026-11-10T11:07:23.345918394Z","epoch":3,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794308843345938683,"utc":"2026-11-10T11:07:23.345938683Z","epoch":3}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794308844440162107,"utc":"2026-11-10T11:07:24.440162107Z","epoch":3}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794308844442818471,"utc":"2026-11-10T11:07:24.442818471Z","epoch":3}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308910265731462,"utc":"2026-11-10T11:08:30.265731462Z","epoch":3,"batch":50000}
+  epoch 3/50  batch 50000  747.2 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794308977063015558,"utc":"2026-11-10T11:09:37.063015558Z","epoch":3,"batch":100000}
+  epoch 3/50  batch 100000  747.8 batches/s  elapsed 2m13s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309043672939293,"utc":"2026-11-10T11:10:43.672939293Z","epoch":3,"batch":150000}
+  epoch 3/50  batch 150000  748.8 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794309051796278338,"utc":"2026-11-10T11:10:51.796278338Z","epoch":3,"batches":156250}
+epoch 3/50  loss 0.0280  batches 156250  time 208.45s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794309051796352431,"utc":"2026-11-10T11:10:51.796352431Z","epoch":4,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794309051796372320,"utc":"2026-11-10T11:10:51.796372320Z","epoch":4}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794309052897265110,"utc":"2026-11-10T11:10:52.897265110Z","epoch":4}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794309052899618847,"utc":"2026-11-10T11:10:52.899618847Z","epoch":4}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309119224310575,"utc":"2026-11-10T11:11:59.224310575Z","epoch":4,"batch":50000}
+  epoch 4/50  batch 50000  741.5 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309186160330218,"utc":"2026-11-10T11:13:06.160330218Z","epoch":4,"batch":100000}
+  epoch 4/50  batch 100000  744.2 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309252831968601,"utc":"2026-11-10T11:14:12.831968601Z","epoch":4,"batch":150000}
+  epoch 4/50  batch 150000  746.1 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794309260942531126,"utc":"2026-11-10T11:14:20.942531126Z","epoch":4,"batches":156250}
+epoch 4/50  loss 0.0283  batches 156250  time 209.15s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794309260942598727,"utc":"2026-11-10T11:14:20.942598727Z","epoch":5,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794309260942616973,"utc":"2026-11-10T11:14:20.942616973Z","epoch":5}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794309262026792069,"utc":"2026-11-10T11:14:22.026792069Z","epoch":5}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794309262029172658,"utc":"2026-11-10T11:14:22.029172658Z","epoch":5}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309328319625152,"utc":"2026-11-10T11:15:28.319625152Z","epoch":5,"batch":50000}
+  epoch 5/50  batch 50000  742.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309395729285231,"utc":"2026-11-10T11:16:35.729285231Z","epoch":5,"batch":100000}
+  epoch 5/50  batch 100000  741.9 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309462963857662,"utc":"2026-11-10T11:17:42.963857662Z","epoch":5,"batch":150000}
+  epoch 5/50  batch 150000  742.5 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794309471105392858,"utc":"2026-11-10T11:17:51.105392858Z","epoch":5,"batches":156250}
+epoch 5/50  loss 0.0210  batches 156250  time 210.16s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794309471105469847,"utc":"2026-11-10T11:17:51.105469847Z","epoch":6,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794309471105489375,"utc":"2026-11-10T11:17:51.105489375Z","epoch":6}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794309472201719268,"utc":"2026-11-10T11:17:52.201719268Z","epoch":6}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794309472204429445,"utc":"2026-11-10T11:17:52.204429445Z","epoch":6}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309538530929483,"utc":"2026-11-10T11:18:58.530929483Z","epoch":6,"batch":50000}
+  epoch 6/50  batch 50000  741.6 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309605740381111,"utc":"2026-11-10T11:20:05.740381111Z","epoch":6,"batch":100000}
+  epoch 6/50  batch 100000  742.7 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309672731166001,"utc":"2026-11-10T11:21:12.731166001Z","epoch":6,"batch":150000}
+  epoch 6/50  batch 150000  744.0 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794309680857476421,"utc":"2026-11-10T11:21:20.857476421Z","epoch":6,"batches":156250}
+epoch 6/50  loss 0.0188  batches 156250  time 209.75s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794309680857543912,"utc":"2026-11-10T11:21:20.857543912Z","epoch":7,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794309680857562328,"utc":"2026-11-10T11:21:20.857562328Z","epoch":7}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794309681960517245,"utc":"2026-11-10T11:21:21.960517245Z","epoch":7}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794309681962969262,"utc":"2026-11-10T11:21:21.962969262Z","epoch":7}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309748450498525,"utc":"2026-11-10T11:22:28.450498525Z","epoch":7,"batch":50000}
+  epoch 7/50  batch 50000  739.7 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309815794559032,"utc":"2026-11-10T11:23:35.794559032Z","epoch":7,"batch":100000}
+  epoch 7/50  batch 100000  741.1 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309883385506265,"utc":"2026-11-10T11:24:43.385506265Z","epoch":7,"batch":150000}
+  epoch 7/50  batch 150000  740.6 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794309891604930979,"utc":"2026-11-10T11:24:51.604930979Z","epoch":7,"batches":156250}
+epoch 7/50  loss 0.0164  batches 156250  time 210.75s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794309891605008209,"utc":"2026-11-10T11:24:51.605008209Z","epoch":8,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794309891605028328,"utc":"2026-11-10T11:24:51.605028328Z","epoch":8}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794309892721859888,"utc":"2026-11-10T11:24:52.721859888Z","epoch":8}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794309892724537322,"utc":"2026-11-10T11:24:52.724537322Z","epoch":8}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794309959852253791,"utc":"2026-11-10T11:25:59.852253791Z","epoch":8,"batch":50000}
+  epoch 8/50  batch 50000  732.6 batches/s  elapsed 1m08s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310027450204027,"utc":"2026-11-10T11:27:07.450204027Z","epoch":8,"batch":100000}
+  epoch 8/50  batch 100000  736.1 batches/s  elapsed 2m15s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310094244828471,"utc":"2026-11-10T11:28:14.244828471Z","epoch":8,"batch":150000}
+  epoch 8/50  batch 150000  740.2 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794310102315959373,"utc":"2026-11-10T11:28:22.315959373Z","epoch":8,"batches":156250}
+epoch 8/50  loss 0.0210  batches 156250  time 210.71s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794310102316099735,"utc":"2026-11-10T11:28:22.316099735Z","epoch":9,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794310102316119834,"utc":"2026-11-10T11:28:22.316119834Z","epoch":9}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794310103402630580,"utc":"2026-11-10T11:28:23.402630580Z","epoch":9}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794310103405115711,"utc":"2026-11-10T11:28:23.405115711Z","epoch":9}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310169430752547,"utc":"2026-11-10T11:29:29.430752547Z","epoch":9,"batch":50000}
+  epoch 9/50  batch 50000  745.0 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310236394907108,"utc":"2026-11-10T11:30:36.394907108Z","epoch":9,"batch":100000}
+  epoch 9/50  batch 100000  745.8 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310303134796197,"utc":"2026-11-10T11:31:43.134796197Z","epoch":9,"batch":150000}
+  epoch 9/50  batch 150000  746.9 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794310311244664834,"utc":"2026-11-10T11:31:51.244664834Z","epoch":9,"batches":156250}
+epoch 9/50  loss 0.0195  batches 156250  time 208.93s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794310311244733357,"utc":"2026-11-10T11:31:51.244733357Z","epoch":10,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794310311244754528,"utc":"2026-11-10T11:31:51.244754528Z","epoch":10}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794310312347422983,"utc":"2026-11-10T11:31:52.347422983Z","epoch":10}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794310312350029740,"utc":"2026-11-10T11:31:52.350029740Z","epoch":10}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310378618040738,"utc":"2026-11-10T11:32:58.618040738Z","epoch":10,"batch":50000}
+  epoch 10/50  batch 50000  742.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310445411029151,"utc":"2026-11-10T11:34:05.411029151Z","epoch":10,"batch":100000}
+  epoch 10/50  batch 100000  745.3 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310511979661462,"utc":"2026-11-10T11:35:11.979661462Z","epoch":10,"batch":150000}
+  epoch 10/50  batch 150000  747.3 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794310520076856985,"utc":"2026-11-10T11:35:20.076856985Z","epoch":10,"batches":156250}
+epoch 10/50  loss 0.0196  batches 156250  time 208.83s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794310520076932671,"utc":"2026-11-10T11:35:20.076932671Z","epoch":11,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794310520076952590,"utc":"2026-11-10T11:35:20.076952590Z","epoch":11}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794310521150751144,"utc":"2026-11-10T11:35:21.150751144Z","epoch":11}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794310521153335107,"utc":"2026-11-10T11:35:21.153335107Z","epoch":11}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310587361747512,"utc":"2026-11-10T11:36:27.361747512Z","epoch":11,"batch":50000}
+  epoch 11/50  batch 50000  743.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310653928959599,"utc":"2026-11-10T11:37:33.928959599Z","epoch":11,"batch":100000}
+  epoch 11/50  batch 100000  747.1 batches/s  elapsed 2m13s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310720574252675,"utc":"2026-11-10T11:38:40.574252675Z","epoch":11,"batch":150000}
+  epoch 11/50  batch 150000  748.1 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794310728672588051,"utc":"2026-11-10T11:38:48.672588051Z","epoch":11,"batches":156250}
+epoch 11/50  loss 0.0189  batches 156250  time 208.60s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794310728672655712,"utc":"2026-11-10T11:38:48.672655712Z","epoch":12,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794310728672673276,"utc":"2026-11-10T11:38:48.672673276Z","epoch":12}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794310729747684892,"utc":"2026-11-10T11:38:49.747684892Z","epoch":12}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794310729750587441,"utc":"2026-11-10T11:38:49.750587441Z","epoch":12}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310795958817430,"utc":"2026-11-10T11:39:55.958817430Z","epoch":12,"batch":50000}
+  epoch 12/50  batch 50000  743.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310862904568876,"utc":"2026-11-10T11:41:02.904568876Z","epoch":12,"batch":100000}
+  epoch 12/50  batch 100000  745.0 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794310929752047902,"utc":"2026-11-10T11:42:09.752047902Z","epoch":12,"batch":150000}
+  epoch 12/50  batch 150000  746.0 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794310937867527109,"utc":"2026-11-10T11:42:17.867527109Z","epoch":12,"batches":156250}
+epoch 12/50  loss 0.0177  batches 156250  time 209.19s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794310937867597726,"utc":"2026-11-10T11:42:17.867597726Z","epoch":13,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794310937867617154,"utc":"2026-11-10T11:42:17.867617154Z","epoch":13}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794310938922346064,"utc":"2026-11-10T11:42:18.922346064Z","epoch":13}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794310938924764967,"utc":"2026-11-10T11:42:18.924764967Z","epoch":13}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311005290680797,"utc":"2026-11-10T11:43:25.290680797Z","epoch":13,"batch":50000}
+  epoch 13/50  batch 50000  741.6 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311072680653068,"utc":"2026-11-10T11:44:32.680653068Z","epoch":13,"batch":100000}
+  epoch 13/50  batch 100000  741.8 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311139505178892,"utc":"2026-11-10T11:45:39.505178892Z","epoch":13,"batch":150000}
+  epoch 13/50  batch 150000  743.9 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794311147624136627,"utc":"2026-11-10T11:45:47.624136627Z","epoch":13,"batches":156250}
+epoch 13/50  loss 0.0189  batches 156250  time 209.76s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794311147624209979,"utc":"2026-11-10T11:45:47.624209979Z","epoch":14,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794311147624229547,"utc":"2026-11-10T11:45:47.624229547Z","epoch":14}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794311148669458228,"utc":"2026-11-10T11:45:48.669458228Z","epoch":14}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794311148671887411,"utc":"2026-11-10T11:45:48.671887411Z","epoch":14}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311215026613633,"utc":"2026-11-10T11:46:55.026613633Z","epoch":14,"batch":50000}
+  epoch 14/50  batch 50000  741.8 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311281945701705,"utc":"2026-11-10T11:48:01.945701705Z","epoch":14,"batch":100000}
+  epoch 14/50  batch 100000  744.5 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311349233841843,"utc":"2026-11-10T11:49:09.233841843Z","epoch":14,"batch":150000}
+  epoch 14/50  batch 150000  744.0 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794311357399634484,"utc":"2026-11-10T11:49:17.399634484Z","epoch":14,"batches":156250}
+epoch 14/50  loss 0.0153  batches 156250  time 209.78s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794311357399709800,"utc":"2026-11-10T11:49:17.399709800Z","epoch":15,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794311357399729168,"utc":"2026-11-10T11:49:17.399729168Z","epoch":15}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794311358501454199,"utc":"2026-11-10T11:49:18.501454199Z","epoch":15}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794311358504236256,"utc":"2026-11-10T11:49:18.504236256Z","epoch":15}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311425009943853,"utc":"2026-11-10T11:50:25.009943853Z","epoch":15,"batch":50000}
+  epoch 15/50  batch 50000  739.5 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311491859642100,"utc":"2026-11-10T11:51:31.859642100Z","epoch":15,"batch":100000}
+  epoch 15/50  batch 100000  743.7 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311558729324945,"utc":"2026-11-10T11:52:38.729324945Z","epoch":15,"batch":150000}
+  epoch 15/50  batch 150000  745.0 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794311566871088524,"utc":"2026-11-10T11:52:46.871088524Z","epoch":15,"batches":156250}
+epoch 15/50  loss 0.0177  batches 156250  time 209.47s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794311566871156375,"utc":"2026-11-10T11:52:46.871156375Z","epoch":16,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794311566871174130,"utc":"2026-11-10T11:52:46.871174130Z","epoch":16}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794311567944488797,"utc":"2026-11-10T11:52:47.944488797Z","epoch":16}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794311567947021280,"utc":"2026-11-10T11:52:47.947021280Z","epoch":16}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311634603329406,"utc":"2026-11-10T11:53:54.603329406Z","epoch":16,"batch":50000}
+  epoch 16/50  batch 50000  738.2 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311702145817337,"utc":"2026-11-10T11:55:02.145817337Z","epoch":16,"batch":100000}
+  epoch 16/50  batch 100000  739.2 batches/s  elapsed 2m15s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311769410067584,"utc":"2026-11-10T11:56:09.410067584Z","epoch":16,"batch":150000}
+  epoch 16/50  batch 150000  740.6 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794311777538461492,"utc":"2026-11-10T11:56:17.538461492Z","epoch":16,"batches":156250}
+epoch 16/50  loss 0.0203  batches 156250  time 210.67s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794311777538535455,"utc":"2026-11-10T11:56:17.538535455Z","epoch":17,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794311777538554923,"utc":"2026-11-10T11:56:17.538554923Z","epoch":17}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794311778619372025,"utc":"2026-11-10T11:56:18.619372025Z","epoch":17}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794311778621935016,"utc":"2026-11-10T11:56:18.621935016Z","epoch":17}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311844796644293,"utc":"2026-11-10T11:57:24.796644293Z","epoch":17,"batch":50000}
+  epoch 17/50  batch 50000  743.4 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311911642660068,"utc":"2026-11-10T11:58:31.642660068Z","epoch":17,"batch":100000}
+  epoch 17/50  batch 100000  745.7 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794311978429835936,"utc":"2026-11-10T11:59:38.429835936Z","epoch":17,"batch":150000}
+  epoch 17/50  batch 150000  746.7 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794311986555176826,"utc":"2026-11-10T11:59:46.555176826Z","epoch":17,"batches":156250}
+epoch 17/50  loss 0.0252  batches 156250  time 209.02s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794311986555241772,"utc":"2026-11-10T11:59:46.555241772Z","epoch":18,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794311986555259356,"utc":"2026-11-10T11:59:46.555259356Z","epoch":18}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794311987614522160,"utc":"2026-11-10T11:59:47.614522160Z","epoch":18}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794311987617089631,"utc":"2026-11-10T11:59:47.617089631Z","epoch":18}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312053923621036,"utc":"2026-11-10T12:00:53.923621036Z","epoch":18,"batch":50000}
+  epoch 18/50  batch 50000  742.2 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312120858613964,"utc":"2026-11-10T12:02:00.858613964Z","epoch":18,"batch":100000}
+  epoch 18/50  batch 100000  744.6 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312187621980790,"utc":"2026-11-10T12:03:07.621980790Z","epoch":18,"batch":150000}
+  epoch 18/50  batch 150000  746.0 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794312195777196781,"utc":"2026-11-10T12:03:15.777196781Z","epoch":18,"batches":156250}
+epoch 18/50  loss 0.0332  batches 156250  time 209.22s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794312195777271276,"utc":"2026-11-10T12:03:15.777271276Z","epoch":19,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794312195777291295,"utc":"2026-11-10T12:03:15.777291295Z","epoch":19}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794312196839023701,"utc":"2026-11-10T12:03:16.839023701Z","epoch":19}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794312196841563107,"utc":"2026-11-10T12:03:16.841563107Z","epoch":19}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312263520238739,"utc":"2026-11-10T12:04:23.520238739Z","epoch":19,"batch":50000}
+  epoch 19/50  batch 50000  738.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312330931096599,"utc":"2026-11-10T12:05:30.931096599Z","epoch":19,"batch":100000}
+  epoch 19/50  batch 100000  739.9 batches/s  elapsed 2m15s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312397950651483,"utc":"2026-11-10T12:06:37.950651483Z","epoch":19,"batch":150000}
+  epoch 19/50  batch 150000  741.9 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794312406081868102,"utc":"2026-11-10T12:06:46.081868102Z","epoch":19,"batches":156250}
+epoch 19/50  loss 0.0416  batches 156250  time 210.30s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794312406081934270,"utc":"2026-11-10T12:06:46.081934270Z","epoch":20,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794312406081951673,"utc":"2026-11-10T12:06:46.081951673Z","epoch":20}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794312407286297328,"utc":"2026-11-10T12:06:47.286297328Z","epoch":20}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794312407288816545,"utc":"2026-11-10T12:06:47.288816545Z","epoch":20}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312473636476963,"utc":"2026-11-10T12:07:53.636476963Z","epoch":20,"batch":50000}
+  epoch 20/50  batch 50000  740.1 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312540782295523,"utc":"2026-11-10T12:09:00.782295523Z","epoch":20,"batch":100000}
+  epoch 20/50  batch 100000  742.4 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312607851872440,"utc":"2026-11-10T12:10:07.851872440Z","epoch":20,"batch":150000}
+  epoch 20/50  batch 150000  743.4 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794312616042671428,"utc":"2026-11-10T12:10:16.042671428Z","epoch":20,"batches":156250}
+epoch 20/50  loss 0.0456  batches 156250  time 209.96s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794312616042747626,"utc":"2026-11-10T12:10:16.042747626Z","epoch":21,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794312616042767103,"utc":"2026-11-10T12:10:16.042767103Z","epoch":21}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794312617102755844,"utc":"2026-11-10T12:10:17.102755844Z","epoch":21}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794312617105290470,"utc":"2026-11-10T12:10:17.105290470Z","epoch":21}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312683920115404,"utc":"2026-11-10T12:11:23.920115404Z","epoch":21,"batch":50000}
+  epoch 21/50  batch 50000  736.6 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312751318334898,"utc":"2026-11-10T12:12:31.318334898Z","epoch":21,"batch":100000}
+  epoch 21/50  batch 100000  739.2 batches/s  elapsed 2m15s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312818533238703,"utc":"2026-11-10T12:13:38.533238703Z","epoch":21,"batch":150000}
+  epoch 21/50  batch 150000  740.8 batches/s  elapsed 3m22s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794312826700073410,"utc":"2026-11-10T12:13:46.700073410Z","epoch":21,"batches":156250}
+epoch 21/50  loss 0.0506  batches 156250  time 210.66s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794312826700140540,"utc":"2026-11-10T12:13:46.700140540Z","epoch":22,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794312826700157913,"utc":"2026-11-10T12:13:46.700157913Z","epoch":22}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794312827756693721,"utc":"2026-11-10T12:13:47.756693721Z","epoch":22}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794312827759342159,"utc":"2026-11-10T12:13:47.759342159Z","epoch":22}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312894431861929,"utc":"2026-11-10T12:14:54.431861929Z","epoch":22,"batch":50000}
+  epoch 22/50  batch 50000  738.2 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794312961561386304,"utc":"2026-11-10T12:16:01.561386304Z","epoch":22,"batch":100000}
+  epoch 22/50  batch 100000  741.5 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313027926402559,"utc":"2026-11-10T12:17:07.926402559Z","epoch":22,"batch":150000}
+  epoch 22/50  batch 150000  745.4 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794313036019361449,"utc":"2026-11-10T12:17:16.019361449Z","epoch":22,"batches":156250}
+epoch 22/50  loss 0.0578  batches 156250  time 209.32s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794313036019436424,"utc":"2026-11-10T12:17:16.019436424Z","epoch":23,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794313036019455731,"utc":"2026-11-10T12:17:16.019455731Z","epoch":23}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794313037070312052,"utc":"2026-11-10T12:17:17.070312052Z","epoch":23}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794313037072882569,"utc":"2026-11-10T12:17:17.072882569Z","epoch":23}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313103170268493,"utc":"2026-11-10T12:18:23.170268493Z","epoch":23,"batch":50000}
+  epoch 23/50  batch 50000  744.6 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313169962022699,"utc":"2026-11-10T12:19:29.962022699Z","epoch":23,"batch":100000}
+  epoch 23/50  batch 100000  746.6 batches/s  elapsed 2m13s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313236668942664,"utc":"2026-11-10T12:20:36.668942664Z","epoch":23,"batch":150000}
+  epoch 23/50  batch 150000  747.6 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794313244771325832,"utc":"2026-11-10T12:20:44.771325832Z","epoch":23,"batches":156250}
+epoch 23/50  loss 0.0610  batches 156250  time 208.75s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794313244771391759,"utc":"2026-11-10T12:20:44.771391759Z","epoch":24,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794313244771409514,"utc":"2026-11-10T12:20:44.771409514Z","epoch":24}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794313245838907592,"utc":"2026-11-10T12:20:45.838907592Z","epoch":24}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794313245841342947,"utc":"2026-11-10T12:20:45.841342947Z","epoch":24}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313311891515818,"utc":"2026-11-10T12:21:51.891515818Z","epoch":24,"batch":50000}
+  epoch 24/50  batch 50000  744.9 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313378710105041,"utc":"2026-11-10T12:22:58.710105041Z","epoch":24,"batch":100000}
+  epoch 24/50  batch 100000  746.6 batches/s  elapsed 2m13s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313445574746828,"utc":"2026-11-10T12:24:05.574746828Z","epoch":24,"batch":150000}
+  epoch 24/50  batch 150000  747.0 batches/s  elapsed 3m20s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794313453755542417,"utc":"2026-11-10T12:24:13.755542417Z","epoch":24,"batches":156250}
+epoch 24/50  loss 0.0751  batches 156250  time 208.98s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794313453755617322,"utc":"2026-11-10T12:24:13.755617322Z","epoch":25,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794313453755636890,"utc":"2026-11-10T12:24:13.755636890Z","epoch":25}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794313454817094662,"utc":"2026-11-10T12:24:14.817094662Z","epoch":25}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794313454819411798,"utc":"2026-11-10T12:24:14.819411798Z","epoch":25}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313521535134816,"utc":"2026-11-10T12:25:21.535134816Z","epoch":25,"batch":50000}
+  epoch 25/50  batch 50000  737.7 batches/s  elapsed 1m07s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313588731217556,"utc":"2026-11-10T12:26:28.731217556Z","epoch":25,"batch":100000}
+  epoch 25/50  batch 100000  740.9 batches/s  elapsed 2m14s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313655741920975,"utc":"2026-11-10T12:27:35.741920975Z","epoch":25,"batch":150000}
+  epoch 25/50  batch 150000  742.6 batches/s  elapsed 3m21s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794313663892398991,"utc":"2026-11-10T12:27:43.892398991Z","epoch":25,"batches":156250}
+epoch 25/50  loss 0.0812  batches 156250  time 210.14s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794313663892464498,"utc":"2026-11-10T12:27:43.892464498Z","epoch":26,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794313663892482302,"utc":"2026-11-10T12:27:43.892482302Z","epoch":26}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794313664956126940,"utc":"2026-11-10T12:27:44.956126940Z","epoch":26}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794313664958463865,"utc":"2026-11-10T12:27:44.958463865Z","epoch":26}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313730503348341,"utc":"2026-11-10T12:28:50.503348341Z","epoch":26,"batch":50000}
+  epoch 26/50  batch 50000  750.6 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313795969392660,"utc":"2026-11-10T12:29:55.969392660Z","epoch":26,"batch":100000}
+  epoch 26/50  batch 100000  757.1 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313861336407835,"utc":"2026-11-10T12:31:01.336407835Z","epoch":26,"batch":150000}
+  epoch 26/50  batch 150000  759.7 batches/s  elapsed 3m17s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794313869251224213,"utc":"2026-11-10T12:31:09.251224213Z","epoch":26,"batches":156250}
+epoch 26/50  loss 0.0959  batches 156250  time 205.36s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794313869251289760,"utc":"2026-11-10T12:31:09.251289760Z","epoch":27,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794313869251306953,"utc":"2026-11-10T12:31:09.251306953Z","epoch":27}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794313870353049075,"utc":"2026-11-10T12:31:10.353049075Z","epoch":27}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794313870355334719,"utc":"2026-11-10T12:31:10.355334719Z","epoch":27}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794313935108993363,"utc":"2026-11-10T12:32:15.108993363Z","epoch":27,"batch":50000}
+  epoch 27/50  batch 50000  759.2 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314000441244150,"utc":"2026-11-10T12:33:20.441244150Z","epoch":27,"batch":100000}
+  epoch 27/50  batch 100000  762.3 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314065739078524,"utc":"2026-11-10T12:34:25.739078524Z","epoch":27,"batch":150000}
+  epoch 27/50  batch 150000  763.4 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794314073699588668,"utc":"2026-11-10T12:34:33.699588668Z","epoch":27,"batches":156250}
+epoch 27/50  loss 0.1071  batches 156250  time 204.45s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794314073699654877,"utc":"2026-11-10T12:34:33.699654877Z","epoch":28,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794314073699672761,"utc":"2026-11-10T12:34:33.699672761Z","epoch":28}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794314074778945477,"utc":"2026-11-10T12:34:34.778945477Z","epoch":28}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794314074781357878,"utc":"2026-11-10T12:34:34.781357878Z","epoch":28}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314139373067170,"utc":"2026-11-10T12:35:39.373067170Z","epoch":28,"batch":50000}
+  epoch 28/50  batch 50000  761.3 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314204545654662,"utc":"2026-11-10T12:36:44.545654662Z","epoch":28,"batch":100000}
+  epoch 28/50  batch 100000  764.3 batches/s  elapsed 2m10s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314269774128362,"utc":"2026-11-10T12:37:49.774128362Z","epoch":28,"batch":150000}
+  epoch 28/50  batch 150000  765.0 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794314277725401312,"utc":"2026-11-10T12:37:57.725401312Z","epoch":28,"batches":156250}
+epoch 28/50  loss 0.1168  batches 156250  time 204.03s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794314277725474264,"utc":"2026-11-10T12:37:57.725474264Z","epoch":29,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794314277725493491,"utc":"2026-11-10T12:37:57.725493491Z","epoch":29}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794314278773823232,"utc":"2026-11-10T12:37:58.773823232Z","epoch":29}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794314278776309526,"utc":"2026-11-10T12:37:58.776309526Z","epoch":29}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314344166231961,"utc":"2026-11-10T12:39:04.166231961Z","epoch":29,"batch":50000}
+  epoch 29/50  batch 50000  752.5 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314410305017567,"utc":"2026-11-10T12:40:10.305017567Z","epoch":29,"batch":100000}
+  epoch 29/50  batch 100000  754.3 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314476197141084,"utc":"2026-11-10T12:41:16.197141084Z","epoch":29,"batch":150000}
+  epoch 29/50  batch 150000  755.8 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794314484204610507,"utc":"2026-11-10T12:41:24.204610507Z","epoch":29,"batches":156250}
+epoch 29/50  loss 0.1226  batches 156250  time 206.48s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794314484204676766,"utc":"2026-11-10T12:41:24.204676766Z","epoch":30,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794314484204694921,"utc":"2026-11-10T12:41:24.204694921Z","epoch":30}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794314485263395296,"utc":"2026-11-10T12:41:25.263395296Z","epoch":30}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794314485265824409,"utc":"2026-11-10T12:41:25.265824409Z","epoch":30}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314550697218795,"utc":"2026-11-10T12:42:30.697218795Z","epoch":30,"batch":50000}
+  epoch 30/50  batch 50000  752.0 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314616805474454,"utc":"2026-11-10T12:43:36.805474454Z","epoch":30,"batch":100000}
+  epoch 30/50  batch 100000  754.1 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314682836680485,"utc":"2026-11-10T12:44:42.836680485Z","epoch":30,"batch":150000}
+  epoch 30/50  batch 150000  755.2 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794314690850422820,"utc":"2026-11-10T12:44:50.850422820Z","epoch":30,"batches":156250}
+epoch 30/50  loss 0.1367  batches 156250  time 206.65s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794314690850488658,"utc":"2026-11-10T12:44:50.850488658Z","epoch":31,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794314690850506131,"utc":"2026-11-10T12:44:50.850506131Z","epoch":31}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794314691939115718,"utc":"2026-11-10T12:44:51.939115718Z","epoch":31}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794314691941506326,"utc":"2026-11-10T12:44:51.941506326Z","epoch":31}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314757509857619,"utc":"2026-11-10T12:45:57.509857619Z","epoch":31,"batch":50000}
+  epoch 31/50  batch 50000  750.1 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314823656458544,"utc":"2026-11-10T12:47:03.656458544Z","epoch":31,"batch":100000}
+  epoch 31/50  batch 100000  753.0 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314889701022373,"utc":"2026-11-10T12:48:09.701022373Z","epoch":31,"batch":150000}
+  epoch 31/50  batch 150000  754.3 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794314897726436106,"utc":"2026-11-10T12:48:17.726436106Z","epoch":31,"batches":156250}
+epoch 31/50  loss 0.1469  batches 156250  time 206.88s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794314897726502004,"utc":"2026-11-10T12:48:17.726502004Z","epoch":32,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794314897726519198,"utc":"2026-11-10T12:48:17.726519198Z","epoch":32}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794314898781228722,"utc":"2026-11-10T12:48:18.781228722Z","epoch":32}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794314898783375489,"utc":"2026-11-10T12:48:18.783375489Z","epoch":32}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794314964344106202,"utc":"2026-11-10T12:49:24.344106202Z","epoch":32,"batch":50000}
+  epoch 32/50  batch 50000  750.6 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315030530816652,"utc":"2026-11-10T12:50:30.530816652Z","epoch":32,"batch":100000}
+  epoch 32/50  batch 100000  753.0 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315096589450716,"utc":"2026-11-10T12:51:36.589450716Z","epoch":32,"batch":150000}
+  epoch 32/50  batch 150000  754.3 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794315104621233452,"utc":"2026-11-10T12:51:44.621233452Z","epoch":32,"batches":156250}
+epoch 32/50  loss 0.1767  batches 156250  time 206.89s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794315104621299169,"utc":"2026-11-10T12:51:44.621299169Z","epoch":33,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794315104621316943,"utc":"2026-11-10T12:51:44.621316943Z","epoch":33}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794315105683777672,"utc":"2026-11-10T12:51:45.683777672Z","epoch":33}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794315105686273244,"utc":"2026-11-10T12:51:45.686273244Z","epoch":33}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315171255299221,"utc":"2026-11-10T12:52:51.255299221Z","epoch":33,"batch":50000}
+  epoch 33/50  batch 50000  750.4 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315237439314701,"utc":"2026-11-10T12:53:57.439314701Z","epoch":33,"batch":100000}
+  epoch 33/50  batch 100000  752.9 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315303523549730,"utc":"2026-11-10T12:55:03.523549730Z","epoch":33,"batch":150000}
+  epoch 33/50  batch 150000  754.1 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794315311548257501,"utc":"2026-11-10T12:55:11.548257501Z","epoch":33,"batches":156250}
+epoch 33/50  loss 0.2179  batches 156250  time 206.93s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794315311548316996,"utc":"2026-11-10T12:55:11.548316996Z","epoch":34,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794315311548334219,"utc":"2026-11-10T12:55:11.548334219Z","epoch":34}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794315312614507285,"utc":"2026-11-10T12:55:12.614507285Z","epoch":34}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794315312617028947,"utc":"2026-11-10T12:55:12.617028947Z","epoch":34}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315377798299708,"utc":"2026-11-10T12:56:17.798299708Z","epoch":34,"batch":50000}
+  epoch 34/50  batch 50000  754.7 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315443247676560,"utc":"2026-11-10T12:57:23.247676560Z","epoch":34,"batch":100000}
+  epoch 34/50  batch 100000  759.3 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315508547470401,"utc":"2026-11-10T12:58:28.547470401Z","epoch":34,"batch":150000}
+  epoch 34/50  batch 150000  761.4 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794315516507237130,"utc":"2026-11-10T12:58:36.507237130Z","epoch":34,"batches":156250}
+epoch 34/50  loss 0.2439  batches 156250  time 204.96s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794315516507314229,"utc":"2026-11-10T12:58:36.507314229Z","epoch":35,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794315516507334298,"utc":"2026-11-10T12:58:36.507334298Z","epoch":35}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794315517569142346,"utc":"2026-11-10T12:58:37.569142346Z","epoch":35}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794315517571801895,"utc":"2026-11-10T12:58:37.571801895Z","epoch":35}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315582372451743,"utc":"2026-11-10T12:59:42.372451743Z","epoch":35,"batch":50000}
+  epoch 35/50  batch 50000  759.1 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315647828216646,"utc":"2026-11-10T13:00:47.828216646Z","epoch":35,"batch":100000}
+  epoch 35/50  batch 100000  761.5 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315713142681690,"utc":"2026-11-10T13:01:53.142681690Z","epoch":35,"batch":150000}
+  epoch 35/50  batch 150000  762.8 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794315721064067066,"utc":"2026-11-10T13:02:01.064067066Z","epoch":35,"batches":156250}
+epoch 35/50  loss 0.2536  batches 156250  time 204.56s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794315721064131611,"utc":"2026-11-10T13:02:01.064131611Z","epoch":36,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794315721064149065,"utc":"2026-11-10T13:02:01.064149065Z","epoch":36}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794315722124720282,"utc":"2026-11-10T13:02:02.124720282Z","epoch":36}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794315722127014284,"utc":"2026-11-10T13:02:02.127014284Z","epoch":36}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315786851494991,"utc":"2026-11-10T13:03:06.851494991Z","epoch":36,"batch":50000}
+  epoch 36/50  batch 50000  760.0 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315852180880032,"utc":"2026-11-10T13:04:12.180880032Z","epoch":36,"batch":100000}
+  epoch 36/50  batch 100000  762.7 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315917653902837,"utc":"2026-11-10T13:05:17.653902837Z","epoch":36,"batch":150000}
+  epoch 36/50  batch 150000  763.0 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794315925616315484,"utc":"2026-11-10T13:05:25.616315484Z","epoch":36,"batches":156250}
+epoch 36/50  loss 0.2577  batches 156250  time 204.55s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794315925616382223,"utc":"2026-11-10T13:05:25.616382223Z","epoch":37,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794315925616402392,"utc":"2026-11-10T13:05:25.616402392Z","epoch":37}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794315926747633322,"utc":"2026-11-10T13:05:26.747633322Z","epoch":37}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794315926749949747,"utc":"2026-11-10T13:05:26.749949747Z","epoch":37}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794315991908763406,"utc":"2026-11-10T13:06:31.908763406Z","epoch":37,"batch":50000}
+  epoch 37/50  batch 50000  754.2 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316057839785749,"utc":"2026-11-10T13:07:37.839785749Z","epoch":37,"batch":100000}
+  epoch 37/50  batch 100000  756.3 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316123545768972,"utc":"2026-11-10T13:08:43.545768972Z","epoch":37,"batch":150000}
+  epoch 37/50  batch 150000  757.8 batches/s  elapsed 3m17s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794316131521950978,"utc":"2026-11-10T13:08:51.521950978Z","epoch":37,"batches":156250}
+epoch 37/50  loss 0.2525  batches 156250  time 205.91s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794316131522015002,"utc":"2026-11-10T13:08:51.522015002Z","epoch":38,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794316131522031924,"utc":"2026-11-10T13:08:51.522031924Z","epoch":38}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794316132582673660,"utc":"2026-11-10T13:08:52.582673660Z","epoch":38}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794316132584974896,"utc":"2026-11-10T13:08:52.584974896Z","epoch":38}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316197743050097,"utc":"2026-11-10T13:09:57.743050097Z","epoch":38,"batch":50000}
+  epoch 38/50  batch 50000  755.0 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316263643486759,"utc":"2026-11-10T13:11:03.643486759Z","epoch":38,"batch":100000}
+  epoch 38/50  batch 100000  756.9 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316329072837887,"utc":"2026-11-10T13:12:09.072837887Z","epoch":38,"batch":150000}
+  epoch 38/50  batch 150000  759.3 batches/s  elapsed 3m17s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794316337046578619,"utc":"2026-11-10T13:12:17.046578619Z","epoch":38,"batches":156250}
+epoch 38/50  loss 0.2604  batches 156250  time 205.52s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794316337046643104,"utc":"2026-11-10T13:12:17.046643104Z","epoch":39,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794316337046660788,"utc":"2026-11-10T13:12:17.046660788Z","epoch":39}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794316338139857678,"utc":"2026-11-10T13:12:18.139857678Z","epoch":39}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794316338142728406,"utc":"2026-11-10T13:12:18.142728406Z","epoch":39}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316403259774199,"utc":"2026-11-10T13:13:23.259774199Z","epoch":39,"batch":50000}
+  epoch 39/50  batch 50000  755.1 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316469195383061,"utc":"2026-11-10T13:14:29.195383061Z","epoch":39,"batch":100000}
+  epoch 39/50  batch 100000  756.7 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316534996865630,"utc":"2026-11-10T13:15:34.996865630Z","epoch":39,"batch":150000}
+  epoch 39/50  batch 150000  757.8 batches/s  elapsed 3m17s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794316543014377873,"utc":"2026-11-10T13:15:43.014377873Z","epoch":39,"batches":156250}
+epoch 39/50  loss 0.2383  batches 156250  time 205.97s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794316543014443711,"utc":"2026-11-10T13:15:43.014443711Z","epoch":40,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794316543014461365,"utc":"2026-11-10T13:15:43.014461365Z","epoch":40}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794316544230026466,"utc":"2026-11-10T13:15:44.230026466Z","epoch":40}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794316544232515233,"utc":"2026-11-10T13:15:44.232515233Z","epoch":40}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316609727708624,"utc":"2026-11-10T13:16:49.727708624Z","epoch":40,"batch":50000}
+  epoch 40/50  batch 50000  749.5 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316675846250020,"utc":"2026-11-10T13:17:55.846250020Z","epoch":40,"batch":100000}
+  epoch 40/50  batch 100000  752.8 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316741829020647,"utc":"2026-11-10T13:19:01.829020647Z","epoch":40,"batch":150000}
+  epoch 40/50  batch 150000  754.5 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794316749847271982,"utc":"2026-11-10T13:19:09.847271982Z","epoch":40,"batches":156250}
+epoch 40/50  loss 0.1933  batches 156250  time 206.83s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794316749847336687,"utc":"2026-11-10T13:19:09.847336687Z","epoch":41,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794316749847354672,"utc":"2026-11-10T13:19:09.847354672Z","epoch":41}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794316750923173498,"utc":"2026-11-10T13:19:10.923173498Z","epoch":41}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794316750925762560,"utc":"2026-11-10T13:19:10.925762560Z","epoch":41}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316816347867786,"utc":"2026-11-10T13:20:16.347867786Z","epoch":41,"batch":50000}
+  epoch 41/50  batch 50000  751.9 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316882359393596,"utc":"2026-11-10T13:21:22.359393596Z","epoch":41,"batch":100000}
+  epoch 41/50  batch 100000  754.6 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794316948291283438,"utc":"2026-11-10T13:22:28.291283438Z","epoch":41,"batch":150000}
+  epoch 41/50  batch 150000  755.9 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794316956290429952,"utc":"2026-11-10T13:22:36.290429952Z","epoch":41,"batches":156250}
+epoch 41/50  loss 0.1478  batches 156250  time 206.44s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794316956290495599,"utc":"2026-11-10T13:22:36.290495599Z","epoch":42,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794316956290513023,"utc":"2026-11-10T13:22:36.290513023Z","epoch":42}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794316957345708133,"utc":"2026-11-10T13:22:37.345708133Z","epoch":42}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794316957348158147,"utc":"2026-11-10T13:22:37.348158147Z","epoch":42}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317022730721765,"utc":"2026-11-10T13:23:42.730721765Z","epoch":42,"batch":50000}
+  epoch 42/50  batch 50000  752.6 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317088751512847,"utc":"2026-11-10T13:24:48.751512847Z","epoch":42,"batch":100000}
+  epoch 42/50  batch 100000  754.9 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317154689244975,"utc":"2026-11-10T13:25:54.689244975Z","epoch":42,"batch":150000}
+  epoch 42/50  batch 150000  756.1 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794317162747660813,"utc":"2026-11-10T13:26:02.747660813Z","epoch":42,"batches":156250}
+epoch 42/50  loss 0.1376  batches 156250  time 206.46s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794317162747729607,"utc":"2026-11-10T13:26:02.747729607Z","epoch":43,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794317162747747311,"utc":"2026-11-10T13:26:02.747747311Z","epoch":43}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794317163807900778,"utc":"2026-11-10T13:26:03.807900778Z","epoch":43}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794317163810621696,"utc":"2026-11-10T13:26:03.810621696Z","epoch":43}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317229578095354,"utc":"2026-11-10T13:27:09.578095354Z","epoch":43,"batch":50000}
+  epoch 43/50  batch 50000  748.2 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317295612372885,"utc":"2026-11-10T13:28:15.612372885Z","epoch":43,"batch":100000}
+  epoch 43/50  batch 100000  752.6 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317361535574639,"utc":"2026-11-10T13:29:21.535574639Z","epoch":43,"batch":150000}
+  epoch 43/50  batch 150000  754.6 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794317369545806852,"utc":"2026-11-10T13:29:29.545806852Z","epoch":43,"batches":156250}
+epoch 43/50  loss 0.1637  batches 156250  time 206.80s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794317369545875134,"utc":"2026-11-10T13:29:29.545875134Z","epoch":44,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794317369545894311,"utc":"2026-11-10T13:29:29.545894311Z","epoch":44}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794317370608680802,"utc":"2026-11-10T13:29:30.608680802Z","epoch":44}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794317370610921500,"utc":"2026-11-10T13:29:30.610921500Z","epoch":44}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317436398303665,"utc":"2026-11-10T13:30:36.398303665Z","epoch":44,"batch":50000}
+  epoch 44/50  batch 50000  747.9 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317502496429674,"utc":"2026-11-10T13:31:42.496429674Z","epoch":44,"batch":100000}
+  epoch 44/50  batch 100000  752.2 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317568525720522,"utc":"2026-11-10T13:32:48.525720522Z","epoch":44,"batch":150000}
+  epoch 44/50  batch 150000  753.8 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794317576591826708,"utc":"2026-11-10T13:32:56.591826708Z","epoch":44,"batches":156250}
+epoch 44/50  loss 0.1623  batches 156250  time 207.05s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794317576591895582,"utc":"2026-11-10T13:32:56.591895582Z","epoch":45,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794317576591913556,"utc":"2026-11-10T13:32:56.591913556Z","epoch":45}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794317577660951878,"utc":"2026-11-10T13:32:57.660951878Z","epoch":45}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794317577663531092,"utc":"2026-11-10T13:32:57.663531092Z","epoch":45}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317643311931011,"utc":"2026-11-10T13:34:03.311931011Z","epoch":45,"batch":50000}
+  epoch 45/50  batch 50000  749.4 batches/s  elapsed 1m06s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317709375390911,"utc":"2026-11-10T13:35:09.375390911Z","epoch":45,"batch":100000}
+  epoch 45/50  batch 100000  753.1 batches/s  elapsed 2m12s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317774647586157,"utc":"2026-11-10T13:36:14.647586157Z","epoch":45,"batch":150000}
+  epoch 45/50  batch 150000  757.4 batches/s  elapsed 3m18s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794317782573868655,"utc":"2026-11-10T13:36:22.573868655Z","epoch":45,"batches":156250}
+epoch 45/50  loss 0.1823  batches 156250  time 205.98s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794317782573932328,"utc":"2026-11-10T13:36:22.573932328Z","epoch":46,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794317782573949832,"utc":"2026-11-10T13:36:22.573949832Z","epoch":46}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794317783636161443,"utc":"2026-11-10T13:36:23.636161443Z","epoch":46}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794317783638826273,"utc":"2026-11-10T13:36:23.638826273Z","epoch":46}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317848427682816,"utc":"2026-11-10T13:37:28.427682816Z","epoch":46,"batch":50000}
+  epoch 46/50  batch 50000  759.3 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317913886458634,"utc":"2026-11-10T13:38:33.886458634Z","epoch":46,"batch":100000}
+  epoch 46/50  batch 100000  761.5 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794317979173964080,"utc":"2026-11-10T13:39:39.173964080Z","epoch":46,"batch":150000}
+  epoch 46/50  batch 150000  763.0 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794317987100614068,"utc":"2026-11-10T13:39:47.100614068Z","epoch":46,"batches":156250}
+epoch 46/50  loss 0.1923  batches 156250  time 204.53s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794317987100678994,"utc":"2026-11-10T13:39:47.100678994Z","epoch":47,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794317987100696578,"utc":"2026-11-10T13:39:47.100696578Z","epoch":47}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794317988167800402,"utc":"2026-11-10T13:39:48.167800402Z","epoch":47}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794317988170151986,"utc":"2026-11-10T13:39:48.170151986Z","epoch":47}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318052963080832,"utc":"2026-11-10T13:40:52.963080832Z","epoch":47,"batch":50000}
+  epoch 47/50  batch 50000  759.2 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318118382881144,"utc":"2026-11-10T13:41:58.382881144Z","epoch":47,"batch":100000}
+  epoch 47/50  batch 100000  761.7 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318183639320438,"utc":"2026-11-10T13:43:03.639320438Z","epoch":47,"batch":150000}
+  epoch 47/50  batch 150000  763.2 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794318191556868993,"utc":"2026-11-10T13:43:11.556868993Z","epoch":47,"batches":156250}
+epoch 47/50  loss 0.2099  batches 156250  time 204.46s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794318191556932396,"utc":"2026-11-10T13:43:11.556932396Z","epoch":48,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794318191556950030,"utc":"2026-11-10T13:43:11.556950030Z","epoch":48}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794318192640242949,"utc":"2026-11-10T13:43:12.640242949Z","epoch":48}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794318192642768589,"utc":"2026-11-10T13:43:12.642768589Z","epoch":48}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318257394912996,"utc":"2026-11-10T13:44:17.394912996Z","epoch":48,"batch":50000}
+  epoch 48/50  batch 50000  759.4 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318322876703600,"utc":"2026-11-10T13:45:22.876703600Z","epoch":48,"batch":100000}
+  epoch 48/50  batch 100000  761.5 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318388356357346,"utc":"2026-11-10T13:46:28.356357346Z","epoch":48,"batch":150000}
+  epoch 48/50  batch 150000  762.2 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794318396296665282,"utc":"2026-11-10T13:46:36.296665282Z","epoch":48,"batches":156250}
+epoch 48/50  loss 0.2052  batches 156250  time 204.74s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794318396296724227,"utc":"2026-11-10T13:46:36.296724227Z","epoch":49,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794318396296741460,"utc":"2026-11-10T13:46:36.296741460Z","epoch":49}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794318397346631135,"utc":"2026-11-10T13:46:37.346631135Z","epoch":49}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794318397349034418,"utc":"2026-11-10T13:46:37.349034418Z","epoch":49}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318462230460365,"utc":"2026-11-10T13:47:42.230460365Z","epoch":49,"batch":50000}
+  epoch 49/50  batch 50000  758.3 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318527735663725,"utc":"2026-11-10T13:48:47.735663725Z","epoch":49,"batch":100000}
+  epoch 49/50  batch 100000  760.8 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318593068718930,"utc":"2026-11-10T13:49:53.068718930Z","epoch":49,"batch":150000}
+  epoch 49/50  batch 150000  762.3 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794318601002999341,"utc":"2026-11-10T13:50:01.002999341Z","epoch":49,"batches":156250}
+epoch 49/50  loss 0.2155  batches 156250  time 204.71s
+TRACE_EVENT {"event":"epoch_start","unix_ns":1794318601003063676,"utc":"2026-11-10T13:50:01.003063676Z","epoch":50,"strategy":"stream"}
+TRACE_EVENT {"event":"iteration_start","unix_ns":1794318601003081079,"utc":"2026-11-10T13:50:01.003081079Z","epoch":50}
+TRACE_EVENT {"event":"first_batch_received","unix_ns":1794318602056586622,"utc":"2026-11-10T13:50:02.056586622Z","epoch":50}
+TRACE_EVENT {"event":"first_batch_processed","unix_ns":1794318602059448713,"utc":"2026-11-10T13:50:02.059448713Z","epoch":50}
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318666888720850,"utc":"2026-11-10T13:51:06.888720850Z","epoch":50,"batch":50000}
+  epoch 50/50  batch 50000  758.9 batches/s  elapsed 1m05s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318732508652537,"utc":"2026-11-10T13:52:12.508652537Z","epoch":50,"batch":100000}
+  epoch 50/50  batch 100000  760.4 batches/s  elapsed 2m11s
+TRACE_EVENT {"event":"batch_checkpoint","unix_ns":1794318797927211791,"utc":"2026-11-10T13:53:17.927211791Z","epoch":50,"batch":150000}
+  epoch 50/50  batch 150000  761.7 batches/s  elapsed 3m16s
+TRACE_EVENT {"event":"epoch_end","unix_ns":1794318805884093206,"utc":"2026-11-10T13:53:25.884093206Z","epoch":50,"batches":156250}
+epoch 50/50  loss 0.2245  batches 156250  time 204.88s
+TRACE_EVENT {"event":"train_end","unix_ns":1794318805886932392,"utc":"2026-11-10T13:53:25.886932392Z"}
+TRACE_EVENT {"event":"main_end","unix_ns":1794318805886970506,"utc":"2026-11-10T13:53:25.886970506Z"}
